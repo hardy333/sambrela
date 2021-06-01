@@ -1,0 +1,375 @@
+@import url(//db.onlinewebfonts.com/c/1868e326d3ee28e5395f6efa2bc037bf?family=Eina01-Regular);
+a:hover {
+  text-decoration: none; }
+
+body {
+  font-family: "Eina01-Regular";
+  margin: 0; }
+
+.vimeo-container {
+  padding: 0;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  position: relative; }
+
+iframe {
+  box-sizing: border-box;
+  width: 177.77777778vh;
+  height: 56.25vw;
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.header {
+  background: #49416d;
+  position: fixed;
+  left: 0;
+  z-index: 4;
+  width: 100%;
+  top: 0; }
+  .header li {
+    position: relative; }
+  .header a {
+    color: #fff;
+    font-family: "Eina01-Regular";
+    font-weight: 600;
+    letter-spacing: 2px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.3s; }
+    .header a::after {
+      transition: all 0.3s;
+      width: 5px;
+      height: 5px;
+      background: transparent;
+      border-radius: 40px;
+      z-index: 3;
+      left: 50%;
+      bottom: -13px;
+      content: "";
+      position: absolute;
+      transform: translate(-50%, -50%); }
+    .header a.active::after, .header a:hover::after {
+      background: #fff; }
+
+.partners {
+  margin-top: 140px; }
+  .partners img {
+    max-width: 100%; }
+
+.service {
+  margin-top: 120px; }
+  .service img {
+    max-width: 100%; }
+
+.service__title {
+  color: #001f2b;
+  font-weight: 28px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.service__plus {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #49416d;
+  font-size: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer; }
+
+.OurGames {
+  margin-top: 120px;
+  position: relative; }
+  .OurGames a {
+    color: #001f2b; }
+  .OurGames .owl-carousel img {
+    max-height: 370px; }
+  .OurGames .left-arrow {
+    position: absolute;
+    left: -70px;
+    top: 50%;
+    transform: translateY(-50%); }
+  .OurGames .right-arrow {
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%); }
+
+.aboutUs {
+  background-color: rgba(0, 0, 255, 0.901);
+  background-image: url("../imgs/Mask Group 14.png");
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px; }
+  .aboutUs::before {
+    width: 100%;
+    height: 100%;
+    background: #59c8f4e7;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .aboutUs .investment {
+    position: relative;
+    color: #fff;
+    margin-top: 7%; }
+    .aboutUs .investment h3 {
+      display: inline-block;
+      margin: auto;
+      padding-bottom: 10px;
+      font-weight: bold;
+      border-bottom: 2px solid;
+      margin-bottom: 20px; }
+  .aboutUs__tabs {
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0; }
+    .aboutUs__tabs li {
+      width: 190px;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 30px 10px;
+      color: #49416d;
+      background: #fff;
+      transition: 0.3s;
+      cursor: pointer; }
+      .aboutUs__tabs li.active, .aboutUs__tabs li:hover {
+        background: #49416d;
+        color: #fff; }
+  .aboutUs__team-memeber {
+    height: 220px;
+    color: #fff; }
+    .aboutUs__team-memeber img {
+      max-width: 100%;
+      max-height: 180px;
+      max-width: 180px;
+      object-fit: cover; }
+    .aboutUs__team-memeber h5 {
+      margin-top: 8px;
+      margin-bottom: 0px; }
+    .aboutUs__team-memeber div {
+      font-size: 14px; }
+
+.footer {
+  background-color: #49416d;
+  color: #fff;
+  padding: 32px 0; }
+  .footer__menus-section a {
+    display: block;
+    color: #fff;
+    height: 22.5px;
+    margin-bottom: 6px; }
+  .footer label {
+    font-weight: bold;
+    font-size: 19px;
+    margin-bottom: 10px; }
+  .footer__socials a {
+    display: inline-block;
+    margin-right: 16px; }
+
+.heading {
+  color: #001f2b;
+  font-size: 24px;
+  font-weight: bold;
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #009bd6; }
+
+.responsiveMenu {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  z-index: 100;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .responsiveMenu li {
+    text-align: center;
+    margin-bottom: 12px; }
+    .responsiveMenu li a {
+      font-size: 30px;
+      color: #001f2b; }
+  .responsiveMenu img {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    cursor: pointer; }
+
+.ServiceModal__wraper {
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.82);
+  z-index: 120; }
+  .ServiceModal__wraper .closeModal {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer; }
+
+.ServiceModal {
+  position: relative;
+  max-width: 80%;
+  z-index: 200;
+  margin: auto;
+  margin-top: 60px;
+  width: 1140px;
+  height: auto;
+  background: #fff;
+  text-align: center;
+  color: #00415a;
+  overflow-y: auto;
+  max-height: 90vh;
+  text-align: center;
+  color: #00415a; }
+  .ServiceModal img {
+    width: calc(100%);
+    object-fit: cover; }
+  .ServiceModal__title {
+    color: #707070;
+    font-size: 20px;
+    margin-top: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px; }
+  .ServiceModal p {
+    max-width: calc(100% + 60px);
+    margin-left: auto;
+    margin-right: auto; }
+
+.games .header {
+  background: none;
+  position: relative; }
+
+.games .headerWrapper {
+  background: linear-gradient(#77d9ff, #0094cc);
+  color: #fff; }
+  .games .headerWrapper h3 {
+    margin-top: 90px;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold; }
+
+.aboutGame {
+  color: #001f2b; }
+  .aboutGame h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .aboutGame ul {
+    list-style: none;
+    /* Remove default bullets */
+    margin-left: 0;
+    padding-left: 15px; }
+    .aboutGame ul li {
+      margin-bottom: 4px; }
+  .aboutGame ul li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #009bd6;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */ }
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%; }
+
+.box .front {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(0deg);
+  transition: 1s; }
+
+.box:hover .front {
+  transform: perspective(1000px) rotateY(180deg); }
+
+.box .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(-180deg);
+  transition: 1s; }
+
+.box:hover .back {
+  transform: perspective(1000px) rotateY(0deg); }
+
+/**********  front  **************/
+.box .front .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; }
+
+.box .front .center img {
+  width: 100px;
+  height: 100px; }
+
+/**********  back  **************/
+.box .back .row {
+  position: relative;
+  width: 100%;
+  height: 50%; }
+
+@media only screen and (max-width: 800px) {
+  .header {
+    background: #fff; }
+  .vimeo-container {
+    margin-top: 60px !important;
+    height: 300px; }
+  .service__title {
+    font-size: 14px; }
+  .left-arrow {
+    display: none; }
+  .right-arrow {
+    display: none; }
+  .footer label {
+    font-size: 15px; }
+  .footer__menus-section a {
+    font-size: 11px;
+    margin-bottom: 6px; }
+  .footer__socials {
+    margin-bottom: 20px; }
+  .OurGames h4 {
+    font-size: 13px;
+    margin-left: 0px !important;
+    margin-right: 0px !important; }
+  .OurGames .title1 {
+    margin-left: 25px !important; }
+  .OurGames .title2 {
+    margin-right: 15px !important; }
+  .OurGames .title3 {
+    margin-right: 25px !important; } }

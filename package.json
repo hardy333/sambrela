@@ -1,0 +1,17 @@
+{
+  "name": "sambrela",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/index.scss css/index.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
