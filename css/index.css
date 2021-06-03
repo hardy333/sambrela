@@ -6,6 +6,23 @@ body {
   font-family: "Eina01-Regular";
   margin: 0; }
 
+#cover {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #141526;
+  z-index: 9999;
+  font-size: 65px;
+  text-align: center;
+  padding-top: 200px;
+  color: #fff;
+  font-family: tahoma; }
+
+.vimeo-container {
+  background: #49416d; }
+
 .vimeo-container {
   padding: 0;
   width: 100%;
@@ -57,12 +74,12 @@ iframe {
       background: #fff; }
 
 .partners {
-  margin-top: 140px; }
+  padding-top: 140px; }
   .partners img {
     max-width: 100%; }
 
 .service {
-  margin-top: 120px; }
+  padding-top: 120px; }
   .service img {
     max-width: 100%; }
 
@@ -85,7 +102,7 @@ iframe {
   cursor: pointer; }
 
 .OurGames {
-  margin-top: 120px;
+  padding-top: 120px;
   position: relative; }
   .OurGames a {
     color: #001f2b; }
@@ -101,6 +118,9 @@ iframe {
     right: -70px;
     top: 50%;
     transform: translateY(-50%); }
+
+#aboutUs {
+  padding-top: 120px; }
 
 .aboutUs {
   background-color: rgba(0, 0, 255, 0.901);
@@ -151,15 +171,17 @@ iframe {
         background: #49416d;
         color: #fff; }
   .aboutUs__team-memeber {
-    height: 220px;
+    height: 240px;
     color: #fff; }
     .aboutUs__team-memeber img {
       max-width: 100%;
       max-height: 180px;
       max-width: 180px;
+      max-height: 180px;
       object-fit: cover; }
     .aboutUs__team-memeber h5 {
       margin-top: 8px;
+      font-size: 18px;
       margin-bottom: 0px; }
     .aboutUs__team-memeber div {
       font-size: 14px; }
