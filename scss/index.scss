@@ -135,8 +135,18 @@ iframe {
     color: $color-black;
   }
   .owl-carousel {
+    h4 {
+      font-weight: bold;
+    }
     img {
-      max-height: 370px;
+      // max-height: 370px;
+      max-height: 300px;
+
+      &.slider-img {
+        height: 100%;
+
+        width: auto;
+      }
     }
   }
   .left-arrow {
@@ -155,6 +165,30 @@ iframe {
 
 #aboutUs {
   padding-top: 120px;
+}
+.modalImg {
+  height: 200px;
+  background: red;
+  background-position: center;
+  border-bottom: 1px solid;
+  &.BRANDING {
+    background-image: url("../imgs/Asset 14@3x.png");
+  }
+  &.gaming_apps {
+    background-image: url("../imgs/Asset 10@3x.png");
+  }
+  &.content_creation {
+    background-image: url("../imgs/Asset 11@3x.png");
+  }
+  &.INFLUENCER {
+    background-image: url("../imgs/Asset 12@3x.png");
+  }
+  &.THROUGH_GAMEIFICATION {
+    background-image: url("../imgs/Asset 13@3x.png");
+  }
+  &.D_ANIMATIONS {
+    background-image: url("../imgs/Asset 15@3x.png");
+  }
 }
 
 .aboutUs {
@@ -327,6 +361,8 @@ iframe {
   color: #00415a;
   overflow-y: auto;
   max-height: 90vh;
+  box-shadow: 1px 3px 18px 6px #88888854;
+  border-radius: 8px;
   img {
     width: calc(100%);
     object-fit: cover;

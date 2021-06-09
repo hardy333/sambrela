@@ -106,8 +106,13 @@ iframe {
   position: relative; }
   .OurGames a {
     color: #001f2b; }
+  .OurGames .owl-carousel h4 {
+    font-weight: bold; }
   .OurGames .owl-carousel img {
-    max-height: 370px; }
+    max-height: 300px; }
+    .OurGames .owl-carousel img.slider-img {
+      height: 100%;
+      width: auto; }
   .OurGames .left-arrow {
     position: absolute;
     left: -70px;
@@ -121,6 +126,24 @@ iframe {
 
 #aboutUs {
   padding-top: 120px; }
+
+.modalImg {
+  height: 200px;
+  background: red;
+  background-position: center;
+  border-bottom: 1px solid; }
+  .modalImg.BRANDING {
+    background-image: url("../imgs/Asset 14@3x.png"); }
+  .modalImg.gaming_apps {
+    background-image: url("../imgs/Asset 10@3x.png"); }
+  .modalImg.content_creation {
+    background-image: url("../imgs/Asset 11@3x.png"); }
+  .modalImg.INFLUENCER {
+    background-image: url("../imgs/Asset 12@3x.png"); }
+  .modalImg.THROUGH_GAMEIFICATION {
+    background-image: url("../imgs/Asset 13@3x.png"); }
+  .modalImg.D_ANIMATIONS {
+    background-image: url("../imgs/Asset 15@3x.png"); }
 
 .aboutUs {
   background-color: rgba(0, 0, 255, 0.901);
@@ -259,6 +282,8 @@ iframe {
   color: #00415a;
   overflow-y: auto;
   max-height: 90vh;
+  box-shadow: 1px 3px 18px 6px #88888854;
+  border-radius: 8px;
   text-align: center;
   color: #00415a; }
   .ServiceModal img {
