@@ -13,6 +13,13 @@ $color-header: #49416d;
 a:hover {
   text-decoration: none;
 }
+.arrows {
+  a {
+    color: $color-black;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
 body {
   font-family: "Eina01-Regular";
   margin: 0;

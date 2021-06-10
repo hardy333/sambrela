@@ -2,6 +2,11 @@
 a:hover {
   text-decoration: none; }
 
+.arrows a {
+  color: #001f2b;
+  font-size: 18px;
+  font-weight: bold; }
+
 body {
   font-family: "Eina01-Regular";
   margin: 0; }
