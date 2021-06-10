@@ -86,6 +86,7 @@ iframe {
 .service {
   padding-top: 120px; }
   .service img {
+    max-height: 430px;
     max-width: 100%; }
 
 .service__title {
