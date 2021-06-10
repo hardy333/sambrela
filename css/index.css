@@ -271,9 +271,17 @@ iframe {
   z-index: 120; }
   .ServiceModal__wraper .closeModal {
     position: absolute;
-    top: 10px;
-    right: 30px;
-    cursor: pointer; }
+    top: 68px;
+    right: 125px;
+    cursor: pointer;
+    z-index: 324;
+    background: #fff9;
+    padding: 3px;
+    border-radius: 5px;
+    width: 36px; }
+
+.modalWrapper {
+  margin: auto; }
 
 .ServiceModal {
   position: relative;
