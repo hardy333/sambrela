@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs2.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body class="games">
+
+<div class="headerWrapper">
+    <header style="background-color: #49416d;" class="header">
+      <div class="responsiveMenu d-none">
+        <img class="closeMenu" src="./imgs/Icon feather-menux.png" />
+        <ul
+        id="top-menu "
+        class="list-unstyled  d-block  align-items-center mb-0"
+      >
+        <li class="mx-4">
+          <a class="mobileLink" class="active" href="/">Home</a>
+        </li>
+        <li class="mx-4">
+          <a class="mobileLink" href="/">Services</a>
+        </li>
+        <li class="mx-4">
+          <a class="mobileLink" href="/">Games</a>
+        </li>
+        <li class="mx-4">
+          <a class="mobileLink" href="/">About Us</a>
+        </li>
+        <li class="mx-4">
+          <a class="mobileLink" href="/">Contact</a>
+        </li>
+      </div>
+      <div class="d-flex py-3 container justify-content-between">
+        <div class="header__logo">
+          <a href="/">
+            <img class="d-none d-md-inline" src="./imgs/Sambrela_Logo-02.png" />
+            <img class="  d-inline  d-md-none" src="./imgs/logoMobile.png" />
+          </a>
+        </div>
+        <div class="header__main-menu d-flex align-items-center">
+          <img class="d-block openMenu d-md-none" src="./imgs/Icon feather-menu.png" />
+          <ul
+            id="top-menu "
+            class="list-unstyled d-none d-md-flex align-items-center mb-0"
+          >
+            <li class="mx-4">
+              <a class="active" href="/">Home</a>
+            </li>
+            <li class="mx-4">
+              <a href="/">Services</a>
+            </li>
+            <li class="mx-4">
+              <a href="/">Games</a>
+            </li>
+            <li class="mx-4">
+              <a href="/">About Us</a>
+            </li>
+            <!-- <li class="mx-4">
+              <a href="#ds">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div style="height: 800px;">
+        <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.8260833613294!2d44.762319915734246!3d41.72427158300506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404473207e735567%3A0xe9f5694a20e07065!2z4YOb4YOY4YOq4YOZ4YOU4YOV4YOY4YOp4YOY4YOhIOGDpeGDo-GDqeGDkCAjMjQ!5e0!3m2!1sen!2sge!4v1623351946524!5m2!1sen!2sge" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  
+    <footer style="margin-top: 83px;" class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6 mb-0 mb-sm-4 text-center text-sm-left">
+            <a href="/">
+              <img src="./imgs/Sambrela_Logo-02.png" />
+            </a>
+            <br />
+            <label class="mt-4">Address</label>
+            <p class="mb-0">This is our company's address Street 34B.</p>
+            <label class="mt-2">Contact</label>
+            <p class="mb-1">
+                +995(032) 2 32 32 32 <br/>
+                 Sambrela@gmail.com
+            </p>
+          </div>
+          <div class="col-12 col-sm-6 d-flex justify-content-end  footer__menus-section">
+              <div class="contactPageForm">
+            <label class="mt-2">Contact Us</label><br/>
+            <input placeholder="Name" /> <br/>
+            <input placeholder="E-mail" /><br/>
+            <input placeholder="Subject" />
+<div class="text-right">
+    <button>Send</button>
+</div>
+</div>
+           
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        navText: [
+          "<img class='left-arrow' src='./imgs/Path 58.png'>",
+          "<img class='right-arrow' src='./imgs/Path 59.png'>",
+        ],
+        nav: true,
+      });
+
+      $(".closeMenu").click(() =>{
+        $(".responsiveMenu").removeClass("d-flex")
+        $(".responsiveMenu").addClass("d-none")
+
+
+      })
+
+      $(".mobileLink").click(() =>{
+        $(".responsiveMenu").removeClass("d-flex")
+        $(".responsiveMenu").addClass("d-none")
+      })
+
+      
+      $(".openMenu").click(() =>{
+        $(".responsiveMenu").removeClass("d-none")
+        $(".responsiveMenu").addClass("d-flex")
+
+      })
+
+
+$(".service__plus").click((e) => {
+  e.stopPropagation()
+  $(".ServiceModal__wraper").addClass("d-flex")
+  $(".ServiceModal__wraper").removeClass("d-none")
+})
+
+$(".closeModal").click(() => {
+  $(".ServiceModal__wraper").addClass("d-none")
+  $(".ServiceModal__wraper").removeClass("d-flex")
+})
+
+$(".serviceItemMobile").click(function(e){
+  e.stopPropagation()
+  $(".ServiceModal__wraper").addClass("d-flex")
+  $(".ServiceModal__wraper").removeClass("d-none")
+})
+
+
+
+
+$(".invest").click(() =>{
+  // debugger
+  $(".aboutUs__tabs li").each(function(){
+    $(this).removeClass("active")
+  })
+    $(".investment").removeClass("d-none")
+    $(".teamContent").addClass("d-none")
+    $(".invest").addClass("active")
+    $(".aboutUs").css({"background-image": "url('../imgs/invest.png')" })
+   
+})
+
+
+$(".team").click(() =>{
+  // debugger
+  $(".aboutUs__tabs li").each(function(){
+    $(this).removeClass("active")
+  })
+    $(".team").addClass("active")
+    $(".investment").addClass("d-none")
+    $(".teamContent").removeClass("d-none")
+    $(".aboutUs").css({"background-image": "url('../imgs/Mask Group 14.png')" })
+
+})
+      
+    });
+
+    ///////////////
+    // Cache selectors
+  </script>
+</html>

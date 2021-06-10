@@ -28,6 +28,26 @@ body {
 .vimeo-container {
   background: #49416d; }
 
+.contactPageForm {
+  max-width: 300px;
+  width: 100%; }
+  .contactPageForm input {
+    border: none;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff; }
+    .contactPageForm input::placeholder {
+      color: #fff; }
+  .contactPageForm button {
+    background-color: #fff;
+    padding: 4px 24px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: darkcyan;
+    color: #00415a; }
+
 .vimeo-container {
   padding: 0;
   width: 100%;
@@ -35,7 +55,7 @@ body {
   overflow: hidden;
   position: relative; }
 
-iframe {
+iframe.video {
   box-sizing: border-box;
   width: 177.77777778vh;
   height: 56.25vw;
@@ -105,7 +125,11 @@ iframe {
   line-height: 40px;
   color: #fff;
   font-weight: bold;
-  cursor: pointer; }
+  cursor: pointer;
+  background: linear-gradient(128deg, #684b9d, #e5284e);
+  transition: all 0.3s; }
+  .service__plus:hover {
+    box-shadow: 2px 5px 11px 0px #06000063; }
 
 .OurGames {
   padding-top: 120px;
@@ -238,7 +262,16 @@ iframe {
   font-weight: bold;
   display: inline-block;
   padding-bottom: 10px;
-  border-bottom: 3px solid #009bd6; }
+  border-bottom: 3px solid #009bd6;
+  position: relative; }
+  .heading:before {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #684b9d, #e5284e);
+    content: "";
+    bottom: -3px; }
 
 .responsiveMenu {
   position: absolute;
