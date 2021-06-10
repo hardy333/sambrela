@@ -303,9 +303,8 @@ iframe {
     font-weight: bold;
     margin-bottom: 30px; }
   .ServiceModal p {
-    max-width: calc(100% + 60px);
-    margin-left: auto;
-    margin-right: auto; }
+    margin-left: 20px;
+    margin-right: 20px; }
 
 .games .header {
   background: none;
