@@ -215,7 +215,8 @@ iframe.video {
   .aboutUs .CareersContent {
     position: relative;
     color: #fff;
-    margin-top: 7%; }
+    margin-top: 7%;
+    text-transform: capitalize; }
     .aboutUs .investment h3,
     .aboutUs .CareersContent h3 {
       display: inline-block;
