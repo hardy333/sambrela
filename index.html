@@ -29,6 +29,9 @@
     ></script>
   </head> 
   <body>
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true">
+      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-up" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="svg-inline--fa fa-angle-up fa-w-10 fa-2x"><path fill="currentColor" d="M177 159.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 255.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 329.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1z" class=""></path></svg>
+    </a>
 <section id="Home"></section>
     <div class="ServiceModal__wraper d-none">
   
@@ -1094,7 +1097,7 @@ $(".team").click(() =>{
     $(".team").addClass("active")
     $(".investment").addClass("d-none")
     $(".teamContent").removeClass("d-none")
-    $(".aboutUs").css({"background-image": "url('../imgs/Mask Group 14.png')" })
+    $(".aboutUs").css({"background-image": "url('../imgs/Team Final.png')" })
 
 })
       
@@ -1139,6 +1142,23 @@ $(function() {
     
 		});
 
+
+    $(document).ready(function() {
+$(window).scroll(function() {
+if ($(this).scrollTop() > 20) {
+$('#toTopBtn').fadeIn();
+} else {
+$('#toTopBtn').fadeOut();
+}
+});
+
+$('#toTopBtn').click(function() {
+$("html, body").animate({
+scrollTop: 0
+}, 1000);
+return false;
+});
+});
 
     ///////////////
     // Cache selectors

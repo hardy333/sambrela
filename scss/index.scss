@@ -252,8 +252,8 @@ iframe.video {
 
 .aboutUs {
   // margin-top: 120px;
-  background-color: rgba(0, 0, 255, 0.901);
-  background-image: url("../imgs/Mask Group 14.png");
+  background-color: linear-gradient(128deg, #684b9d, #e5284e);
+  background-image: url("../imgs/Team Final.png");
   object-fit: cover;
   position: relative;
   background-size: cover;
@@ -262,7 +262,7 @@ iframe.video {
   &::before {
     width: 100%;
     height: 100%;
-    background: #59c8f4e7;
+    background: linear-gradient(128deg, #684b9deb, #e5284ef2);
     content: "";
     position: absolute;
 
@@ -328,6 +328,19 @@ iframe.video {
     div {
       font-size: 14px;
     }
+  }
+}
+#toTopBtn {
+  position: fixed;
+  bottom: 26px;
+  right: 39px;
+  z-index: 98;
+  padding: 8px 14px;
+  // background-color: hsla(5, 76%, 62%, 0.8);
+  background: linear-gradient(98deg, #684b9d, #e5284e);
+  svg {
+    height: 30px;
+    color: #fff;
   }
 }
 
