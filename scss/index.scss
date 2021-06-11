@@ -1,5 +1,20 @@
 @import url(//db.onlinewebfonts.com/c/1868e326d3ee28e5395f6efa2bc037bf?family=Eina01-Regular);
 
+@font-face {
+  font-family: "Eina01-Regular";
+  src: url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.eot");
+  src: url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.svg#Eina01-Regular")
+      format("svg");
+}
+
 $color-black: #001f2b;
 $color-wight: #fff;
 $color-blue: #009bd6;
@@ -25,6 +40,7 @@ a:hover {
   }
 }
 body {
+  // font-family: "Eina01-Regular";
   font-family: "Eina01-Regular";
   margin: 0;
 }
@@ -213,23 +229,24 @@ iframe.video {
   background: red;
   background-position: center;
   border-bottom: 1px solid;
+  background-size: cover;
   &.BRANDING {
-    background-image: url("../imgs/Asset 14@3x.png");
+    background-image: url("../imgs/BRANDING.png");
   }
   &.gaming_apps {
-    background-image: url("../imgs/Asset 10@3x.png");
+    background-image: url("../imgs/GAMING APPS.png");
   }
   &.content_creation {
-    background-image: url("../imgs/Asset 11@3x.png");
+    background-image: url("../imgs/Video Content Creation.png");
   }
   &.INFLUENCER {
-    background-image: url("../imgs/Asset 12@3x.png");
+    background-image: url("../imgs/INFLUENCER MARKETING.png");
   }
   &.THROUGH_GAMEIFICATION {
-    background-image: url("../imgs/Asset 13@3x.png");
+    background-image: url("../imgs/Marketing through gamification.png");
   }
   &.D_ANIMATIONS {
-    background-image: url("../imgs/Asset 15@3x.png");
+    background-image: url("../imgs/2D & 3D ANIMATION.png");
   }
 }
 
