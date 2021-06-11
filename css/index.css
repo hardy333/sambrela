@@ -36,7 +36,7 @@ body {
   background: #49416d; }
 
 .contactPageForm {
-  max-width: 300px;
+  max-width: 450px;
   width: 100%; }
   .contactPageForm input {
     border: none;
@@ -219,6 +219,7 @@ iframe.video {
     .aboutUs .investment h3,
     .aboutUs .CareersContent h3 {
       display: inline-block;
+      text-transform: capitalize;
       margin: auto;
       padding-bottom: 10px;
       font-weight: bold;
@@ -268,10 +269,20 @@ iframe.video {
   right: 39px;
   z-index: 98;
   padding: 8px 14px;
+  border-radius: 50px;
   background: linear-gradient(98deg, #684b9d, #e5284e); }
   #toTopBtn svg {
     height: 30px;
     color: #fff; }
+
+.containerFOrm {
+  background: linear-gradient(98deg, #684b9d, #e5284e); }
+
+.containerContact {
+  position: absolute;
+  left: 54%;
+  top: 20px;
+  transform: translateX(-50%); }
 
 .footer {
   background-color: #49416d;
