@@ -211,11 +211,13 @@ iframe.video {
     position: absolute;
     top: 0;
     left: 0; }
-  .aboutUs .investment {
+  .aboutUs .investment,
+  .aboutUs .CareersContent {
     position: relative;
     color: #fff;
     margin-top: 7%; }
-    .aboutUs .investment h3 {
+    .aboutUs .investment h3,
+    .aboutUs .CareersContent h3 {
       display: inline-block;
       margin: auto;
       padding-bottom: 10px;
