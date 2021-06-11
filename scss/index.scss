@@ -341,6 +341,7 @@ iframe.video {
       color: $color-wight;
       height: 22.5px;
       margin-bottom: 6px;
+      text-transform: capitalize;
     }
   }
   label {
@@ -411,8 +412,8 @@ iframe.video {
   // filter: blur(8px);
   .closeModal {
     position: absolute;
-    top: 68px;
-    right: 125px;
+    top: 74px;
+    right: 139px;
     cursor: pointer;
     z-index: 324;
     background: #fff9;

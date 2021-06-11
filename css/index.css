@@ -253,7 +253,8 @@ iframe.video {
     display: block;
     color: #fff;
     height: 22.5px;
-    margin-bottom: 6px; }
+    margin-bottom: 6px;
+    text-transform: capitalize; }
   .footer label {
     font-weight: bold;
     font-size: 19px;
@@ -310,8 +311,8 @@ iframe.video {
   z-index: 120; }
   .ServiceModal__wraper .closeModal {
     position: absolute;
-    top: 68px;
-    right: 125px;
+    top: 74px;
+    right: 139px;
     cursor: pointer;
     z-index: 324;
     background: #fff9;
