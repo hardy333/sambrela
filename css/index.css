@@ -190,7 +190,8 @@ iframe.video {
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 500px; }
+  min-height: 500px;
+  padding-bottom: 30px; }
   .aboutUs::before {
     width: 100%;
     height: 100%;
