@@ -33,6 +33,7 @@ a:hover {
   text-decoration: none;
 }
 .arrows {
+  transform: translateY(29px);
   a {
     color: $color-black;
     font-size: 18px;
