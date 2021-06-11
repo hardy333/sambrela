@@ -212,31 +212,17 @@
           <img src="./imgs/Asset 13@3x.png" />
         </div>
 
+        
+
+         
+
+         
+
         <div class="col-12 col-sm-6 mb-2">
-          <img src="./imgs/Asset 14@3x.png" />
+          <img src="./imgs/Asset 15@3x.png" />
         </div>
 
-       
 
-          <div
-            class="col-12 col-sm-6 mb-2 d-flex align-items-center justify-content-center"
-          >
-            <div class="service__heding">
-              <h3 class="service__title mb-4">
-                branding
-              </h3>
-
-              <span data-serviceName="BRANDING" class="service__plus" >
-                +
-              </span>
-            </div>
-          </div>
-
-         
-
-         
-
-         
 
           <div
             class="col-12 col-sm-6 mb-2 d-flex align-items-center justify-content-center"
@@ -252,9 +238,28 @@
             </div>
           </div>
 
+         
+         
+  
+            <div
+              class="col-12 col-sm-6 mb-2 d-flex align-items-center justify-content-center"
+            >
+              <div class="service__heding">
+                <h3 class="service__title mb-4">
+                  branding
+                </h3>
+  
+                <span data-serviceName="BRANDING" class="service__plus" >
+                  +
+                </span>
+              </div>
+            </div>
+
+            
           <div class="col-12 col-sm-6 mb-2">
-            <img src="./imgs/Asset 15@3x.png" />
+            <img src="./imgs/Asset 14@3x.png" />
           </div>
+  
         </div>
       </div>
     </section>
@@ -385,7 +390,7 @@
       <h2 class="heading mb-5 position-relative">
         Our Games
       </h2>
-      <div class="container mt-4">
+      <div class="container sliderContainer mt-4">
         <div class="owl-carousel">
           
          <a href="/sambrela/roundColors.html">
@@ -451,6 +456,95 @@
               Zumaster
             </h4>
           </a>
+        </div>
+      </div>
+
+
+      <div id="seeAll" >see more of our works</div>
+      <div class="container All-games  mt-4">
+        <div class="row">
+          
+          <div class="col-md-3 col-6">
+         <a href="/sambrela/roundColors.html">
+       
+            <img class="slider-img" src="./imgs/Asset 1@3x.png" />
+            <h4>
+              Round Colors
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/SpaceJumper.html">
+       
+            <img class="slider-img" src="./imgs/Asset 2@3x.png" />
+            <h4>
+              Space Jumper
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/PipeRunner.html">
+       
+            <img class="slider-img" src="./imgs/Asset 3@3x.png" />
+            <h4>
+              Pipe Runner
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/bidgConstructor.html">
+       
+            <img class="slider-img" src="./imgs/Asset 4@3x.png" />
+            <h4>
+              Bridge Constructor
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/fallMaster.html">
+       
+            <img class="slider-img" src="./imgs/Asset 5@3x.png" />
+            <h4>
+              Fall Master
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/babyPiano.html">
+       
+            <img class="slider-img" src="./imgs/Asset 6@3x.png" />
+            <h4>
+              Baby Piano
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/arena.html">
+       
+            <img class="slider-img" src="./imgs/Asset 7@3x.png" />
+            <h4>
+              Arena
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/Solitaire.html">
+       
+            <img class="slider-img" src="./imgs/Asset 8@3x.png" />
+            <h4>
+              21 Solitaire
+            </h4>
+          </a>
+        </div>
+          <div class="col-md-3 col-6">
+          <a href="/sambrela/games.html">
+       
+            <img class="slider-img" src="./imgs/Asset 9@3x.png" />
+            <h4>
+              Zumaster
+            </h4>
+          </a>
+        </div>
         </div>
       </div>
     </section>
@@ -1144,6 +1238,23 @@ $(function() {
 
 
     $(document).ready(function() {
+      
+      $("#seeAll").click(function(){
+        if($(this).text() !== "see less"){
+          $(this).text("see less")
+          $(".All-games").slideDown()
+        $(".sliderContainer").slideUp()
+        }
+        else{
+        $(this).text("see more of our works")
+
+          $(".All-games").slideUp()
+        $(".sliderContainer").slideDown()
+        }
+      
+      })
+
+
 $(window).scroll(function() {
 if ($(this).scrollTop() > 20) {
 $('#toTopBtn').fadeIn();

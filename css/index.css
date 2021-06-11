@@ -183,6 +183,17 @@ iframe.video {
   .modalImg.D_ANIMATIONS {
     background-image: url("../imgs/2D & 3D ANIMATION.png"); }
 
+.All-games {
+  display: none; }
+  .All-games img {
+    max-width: 100%; }
+
+#seeAll {
+  font-size: 18px;
+  color: #00719c;
+  font-weight: bold;
+  text-transform: capitalize; }
+
 .aboutUs {
   background-color: linear-gradient(128deg, #684b9d, #e5284e);
   background-image: url("../imgs/Team Final.png");

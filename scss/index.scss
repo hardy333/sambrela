@@ -251,6 +251,18 @@ iframe.video {
   }
 }
 
+.All-games {
+  display: none;
+  img {
+    max-width: 100%;
+  }
+}
+#seeAll {
+  font-size: 18px;
+  color: #00719c;
+  font-weight: bold;
+  text-transform: capitalize;
+}
 .aboutUs {
   // margin-top: 120px;
   background-color: linear-gradient(128deg, #684b9d, #e5284e);
