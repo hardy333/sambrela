@@ -623,6 +623,14 @@ iframe.video {
 // }
 
 @media only screen and (max-width: 800px) {
+  .modalImg {
+    height: 104px;
+  }
+  .ServiceModal__wraper .closeModal {
+    top: 61px;
+    right: 44px;
+    background: #ffffffe8;
+  }
   .service.mobile {
     .serviceItemMobile {
       cursor: pointer;
@@ -631,6 +639,10 @@ iframe.video {
       max-height: 216px;
       margin-bottom: 10px;
     }
+  }
+
+  .footer__socials a img {
+    width: 30px;
   }
   .OurGames .owl-carousel img.slider-img {
     width: 90%;
