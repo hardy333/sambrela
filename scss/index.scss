@@ -62,6 +62,17 @@ body {
 
 .vimeo-container {
   background: #49416d;
+  position: relative;
+  &::before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(117, 68, 68, 0);
+    content: "";
+    z-index: 14;
+  }
 }
 
 .contactPageForm {
