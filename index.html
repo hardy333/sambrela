@@ -271,7 +271,7 @@
       <div class="container">
         <div class="row">
           
-        <div class="col-6 serviceItemMobile ">
+        <div class="col-6 serviceItemMobile  " data-serviceName="gaming_apps">
 
           <div class="col-12 col-sm-6 mb-1">
             <img src="./imgs/Asset 10@3x.png" />
@@ -289,7 +289,7 @@
           </div>
         </div>
 
-        <div class="col-6 serviceItemMobile">
+        <div class="col-6 serviceItemMobile" data-serviceName="content_creation">
         
           <div class="col-12 col-sm-6 mb-1">
             <img src="./imgs/Asset 11@3x.png" />
@@ -309,7 +309,7 @@
       
      
 
-<div class="col-6 serviceItemMobile">
+<div class="col-6 serviceItemMobile " data-serviceName="INFLUENCER">
           <div class="col-12 col-sm-6 mb-1">
             <img src="./imgs/Asset 12@3x.png" />
           </div>
@@ -330,7 +330,7 @@
 
 
 
-          <div class="col-6 serviceItemMobile">
+          <div class="col-6 serviceItemMobile " data-serviceName="THROUGH_GAMEIFICATION">
 
           <div class="col-12 col-sm-6 mb-1">
             <img src="./imgs/Asset 13@3x.png" />
@@ -348,7 +348,7 @@
             </div>
           </div>
           </div>
-<div class="col-6 serviceItemMobile">
+<div class="col-6 serviceItemMobile "  data-serviceName="D_ANIMATIONS">
 
           <div class="col-12 col-sm-6 mb-1">
             <img src="./imgs/Asset 14@3x.png" />
@@ -365,7 +365,7 @@
           </div>
 
         </div>
-          <div class="col-6 serviceItemMobile ">
+          <div class="col-6 serviceItemMobile " data-serviceName="BRANDING">
 
           <div class="col-12 col-sm-6 mb-1">
             <img src="./imgs/Asset 15@3x.png" />
@@ -1101,7 +1101,7 @@ influencer marketing
         loop: true,
         responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         600:{
@@ -1159,7 +1159,7 @@ influencer marketing
 //       })
 
 
-$(".service__plus").click(function(e)  {
+$(".service__plus, .serviceItemMobile").click(function(e)  {
   
   e.stopPropagation()
 
