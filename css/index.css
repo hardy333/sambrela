@@ -352,7 +352,7 @@ iframe.video {
   .ServiceModal__wraper .closeModal {
     position: absolute;
     top: 74px;
-    right: 139px;
+    right: 80px;
     cursor: pointer;
     z-index: 324;
     background: #fff9;
@@ -365,11 +365,11 @@ iframe.video {
 
 .ServiceModal {
   position: relative;
-  max-width: 80%;
+  width: 90%;
   z-index: 200;
   margin: auto;
   margin-top: 60px;
-  width: 1140px;
+  max-width: 1140px;
   height: auto;
   background: #fff;
   text-align: center;
