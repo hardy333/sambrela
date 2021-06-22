@@ -1099,6 +1099,21 @@ influencer marketing
     $(document).ready(function () {
       $(".owl-carousel").owlCarousel({
         loop: true,
+        responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1300:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    },
         navText: [
           "<img class='left-arrow' src='./imgs/Path 58.png'>",
           "<img class='right-arrow' src='./imgs/Path 59.png'>",
