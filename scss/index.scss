@@ -665,11 +665,14 @@ iframe.video {
     background: #fff;
   }
   .vimeo-container {
-    margin-top: 60px !important;
+    margin-top: 78px !important;
     height: calc(100vw * 0.39);
     iframe {
       width: 100%;
     }
+  }
+  .partners {
+    padding-top: 70px;
   }
   .service__title {
     font-size: 14px;
