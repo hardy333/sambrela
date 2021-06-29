@@ -139,7 +139,9 @@ iframe.video {
   border-radius: 50px;
   background-color: #49416d;
   font-size: 40px;
-  line-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -176,7 +178,6 @@ iframe.video {
 
 .modalImg {
   height: 200px;
-  background: red;
   background-position: center;
   border-bottom: 1px solid;
   background-size: cover; }
