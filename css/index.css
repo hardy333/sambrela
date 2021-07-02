@@ -4,6 +4,9 @@
   src: url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.eot");
   src: url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.woff") format("woff"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.svg#Eina01-Regular") format("svg"); }
 
+.logoFilter {
+  filter: drop-shadow(8px 6px 17px rgba(0, 0, 0, 0.5)); }
+
 a:hover {
   text-decoration: none; }
 
@@ -447,9 +450,9 @@ iframe.video {
 
 .box {
   position: absolute;
-  top: 50%;
+  top: 0%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0%);
   width: 100%; }
 
 .box .front {
@@ -531,8 +534,7 @@ iframe.video {
   .footer__socials a img {
     width: 30px; }
   .OurGames .owl-carousel img.slider-img {
-    width: 90%;
-    min-height: 250px; }
+    width: 90%; }
   .aboutUs__team-memeber img {
     max-width: 165px; }
   .aboutUs .investment,
@@ -573,5 +575,4 @@ iframe.video {
 
 @media only screen and (max-width: 700px) {
   .OurGames .owl-carousel img.slider-img {
-    width: 90%;
-    min-height: 180px; } }
+    width: 90%; } }
