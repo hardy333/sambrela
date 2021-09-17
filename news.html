@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" href="./imgs/2_00000.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sambrela</title>
     <link
@@ -30,14 +32,14 @@
   </head>
   <style>
     .card {
-  --card-gradient: rgba(0, 0, 0, 0.8);
-  --card-gradient: #5e9ad9, #e271ad;
-  --card-blend-mode: overlay;
-  background-color: #fff;
+  /* --card-gradient: rgba(0, 0, 0, 0.8); */
+  /* --card-gradient: #5e9ad9, #e271ad; */
+  /* --card-blend-mode: overlay; */
+  /* background-color: #fff; */
   border-radius: 0.5rem;
   box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
   padding-bottom: 1rem;
-  background-image: linear-gradient(var(--card-gradient), white max(9.5rem, 27vh));
+  /* background-image: linear-gradient(var(--card-gradient), white max(9.5rem, 27vh)); */
   overflow: hidden;
   transition: 0.3s;;
 }
@@ -118,108 +120,206 @@
 }
 .games .headerWrapper h3 {
     margin-top: 10px;
+    font-size: 21px;
+    min-height: 100px;
+
+}
+.header {
+    background: #49416d !important;
 
 }
   </style>
   <body class="games">
 
 <div class="headerWrapper">
-    <header style="background-color: #49416d;" class="header">
-      <div class="responsiveMenu d-none">
-        <img class="closeMenu" src="/imgs/Icon feather-menux.png" />
+  <header class="header">
+    <div class="responsiveMenu d-none">
+      <img class="closeMenu" src="/imgs/Icon feather-menux.png" />
+      <ul
+      id="top-menu "
+      class="list-unstyled  d-block  align-items-center mb-0"
+    >
+      <li class="mx-4">
+        <a class="mobileLink" class="active" href="/#">Home</a>
+      </li>
+      <li class="mx-4">
+        <a class="mobileLink" href="/#Services">Services</a>
+      </li>
+      <li class="mx-4">
+        <a class="mobileLink" href="/#OurGames">Games</a>
+      </li>
+      <li class="mx-4">
+        <a class="nav-link "  href="/news.html">News</a>
+      </li>
+      <li class="mx-4">
+        <a class="mobileLink" href="/#aboutUs">About Us</a>
+      </li>
+      <li class="mx-4">
+        <a class="mobileLink" href="/#aboutUs">Contact</a>
+      </li>
+    </div>
+    <div class="d-flex py-3 container justify-content-between">
+      <div class="header__logo">
+        <a href="/">
+          <img class="d-none d-md-inline" src="/imgs/Sambrela_Logo-02.png" />
+          <img class="  d-inline  d-md-none" src="/imgs/logoMobile.png" />
+        </a>
+      </div>
+      <div class="header__main-menu d-flex align-items-center">
+        <img class="d-block openMenu d-md-none" src="/imgs/Icon feather-menu.png" />
         <ul
-        id="top-menu "
-        class="list-unstyled  d-block  align-items-center mb-0"
-      >
-        <li class="mx-4">
-          <a class="mobileLink" class="active" href="/">Home</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">Services</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">Games</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">About Us</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">Contact</a>
-        </li>
+          id="top-menu "
+          class="list-unstyled d-none d-md-flex align-items-center mb-0"
+        >
+          <li class="mx-4">
+            <a class="active" href="/#">Home</a>
+          </li>
+          <li class="mx-4">
+            <a href="/#Services">Services</a>
+          </li>
+          <li class="mx-4">
+            <a href="/#OurGames">Games</a>
+          </li>
+          <li class="mx-4">
+            <a href="/news.html">News</a>
+          </li>
+          <li class="mx-4">
+            <a href="/#aboutUs">About Us</a>
+          </li>
+          <!-- <li class="mx-4">
+            <a href="#ds">Contact</a>
+          </li> -->
+        </ul>
       </div>
-      <div class="d-flex py-3 container justify-content-between">
-        <div class="header__logo">
-          <a href="/">
-            <img class="d-none d-md-inline" src="/imgs/Sambrela_Logo-02.png" />
-            <img class="  d-inline  d-md-none" src="/imgs/logoMobile.png" />
-          </a>
-        </div>
-        <div class="header__main-menu d-flex align-items-center">
-          <img class="d-block openMenu d-md-none" src="/imgs/Icon feather-menu.png" />
-          <ul
-            id="top-menu "
-            class="list-unstyled d-none d-md-flex align-items-center mb-0"
-          >
-            <li class="mx-4">
-              <a class="active" href="/">Home</a>
-            </li>
-            <li class="mx-4">
-              <a href="/">Services</a>
-            </li>
-            <li class="mx-4">
-              <a href="/">Games</a>
-            </li>
-            <li class="mx-4">
-              <a href="/">About Us</a>
-            </li>
-            <!-- <li class="mx-4">
-              <a href="#ds">Contact</a>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </header>
+    </div>
+  </header>
     <div class="cardWrapper" style="
     min-height: 400px; position: relative; " >
         <ul class="card-wrapper">
           <li class="card">
-            <img src='https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
-            <h3><a href="">A Super Wonderful Headline</a></h3>
-            <p>Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit</p>
-            <a class="moreBtn" href="">Read More</a>
+            <img src='https://www.tbcbusiness.ge/file/uploads/Images/3daa354c-5951-4070-b2bd-a704eb698b48.jpg' alt=''>
+            <h3><a href="">„სამბრელა“ - მობილური თამაშები მთელი მსოფლიოსთვის</a></h3>
+            <p>“სამბრელა” 2019 წელს დაფუძნებული თანამედროვე ციფრული ტექნოლოგიების სტარტაპია... </p>
+            <a class="moreBtn" href="https://www.tbcbusiness.ge/ka/business-support/blogs/sambrela?fbclid=IwAR3UjwSIg5F4LYCfUy2W2xAwAZd5Sr5sPSyWURTdTl2gQB7-Qb2IUgGx1PU" target="_blank">Read More</a>
           </li>
           <li class="card">
-            <img src='https://images.unsplash.com/photo-1611083360739-bdad6e0eb1fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
-            <h3><a href="">What a Fantabulous Title! </a></h3>
-            <p>Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit</p>
-            <a class="moreBtn" href="">Read More</a>
+            <img src='https://www.tbcbusiness.ge/file/uploads/Images/9f1160f2-77d3-4dec-b17f-1f4446e8baad.jpg' alt=''>
+
+            <h3><a href="">Sambrela Presents Blockchain-Based Cybersport Gaming Platform 'Fabula' </a></h3>
+            <p>With Fabula’s unique SDK any mobile game can generate income both for players and its developers. The Platform users can play their favorite games...</p>
+            <a class="moreBtn" href="https://cbw.ge/startup/sambrela-presents-blockchain-based-cybersport-gaming-platform-fabula?fbclid=IwAR0mR2CR2Tqi0WkCGjkejwm4gNZ4Krgf9ILPjsw5c5LmldWRreNFpYLK3J8" target="_blank">Read More</a>
          
           </li>
+        
           <li class="card">
-            <img src='https://images.unsplash.com/photo-1613230485186-2e7e0fca1253?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
-            <h3><a href="">Positively Terrific Title</a></h3>
-            <p>Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit Lorem ipsum sit dolor amit</p>
-            <a class="moreBtn" href="">Read More</a>
+            <img src='https://bm.ge/uploads/news/5ea5573c36969.jpg' alt=''>
+            <h3><a href="">ქართული სტარტაპი Sambrela, რომლის ანგარიშზეც 2 ბლოქჩეინ პროგრამა და 4 თამაშია</a></h3>
+            <p>თანამედროვე ციფრული ტექნოლოგიების ქართული კომპანია Sambrela 2019 წლის სექტემბერში დაარსდა...</p>
+            <a class="moreBtn" href="https://bm.ge/ka/article/qartuli-startapi-sambrela-romlis-angarishzec-2-bloqchein-programa-da-4-tamashia-/54949" target="_blank">Read More</a>
         
           </li>
-          <li class="card">
-            <img src='https://images.unsplash.com/photo-1611083360739-bdad6e0eb1fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
-            <h3><a href="">What a Fantabulous Title!</a></h3>
-            <p>Lorem ipsum sit dolor amit</p>
-            <a class="moreBtn" href="">Read More</a>
-        
-          </li>
-          <li class="card">
-            <img src='https://images.unsplash.com/photo-1611916656173-875e4277bea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHw&ixlib=rb-1.2.1&q=80&w=400' alt=''>
-            <h3><a href="">A Super Wonderful Headline</a></h3>
-            <p>Lorem ipsum sit dolor amit</p>
-            <a class="moreBtn" href="">Read More</a>
-         
-          </li>
+       
         </ul>
     </div>
+    <footer class="footer">
+      <div class="container">
+        <div  class="row">
+          <div class="col-12 col-sm-6 mb-0 mb-sm-4 text-center text-sm-left">
+            <a href="/">
+              <img src="/imgs/Sambrela_Logo-02.png" />
+            </a>
+            <br />
+            <label class="mt-4">Address</label>
+            <p class="mb-4">27g Adam Mitskevichi St 0194 Tbilisi, Georgia</p>
+            <div class="footer__socials">
+              <a href="https://www.facebook.com/sambrela" target="_blank">
+                <img src="/imgs/Component 1 – 9.png" />
+              </a>
+              <a href="https://twitter.com/sambrelastudio" target="_blank">
+                <img src="/imgs/Component 2 – 8.png" />
+              </a>
+              <a href="https://www.instagram.com/sambrela_/" target="_blank">
+                <img src="/imgs/Component 3 – 8.png" />
+              </a>
+              <a href="https://www.youtube.com/channel/UCWxT9qkQ2cS3mpuLoe1UbSw/featured" target="_blank">
+                <img src="/imgs/Component 4 – 8.png" />
+              </a>
+              <a href="https://www.linkedin.com/company/34885109" target="_blank">
+                <img src="/imgs/Component 5 – 8.png" />
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 footer__menus-section">
+            <div class="row">
+              <div class="col-4">
+                <label>Navigation</label>
+                <br />
+
+                <a href="#Home">
+                  home
+                </a>
+                <a href="#Services">
+                  Services
+                </a>
+                <a href="#OurGames">
+                  Games
+                </a>
+                <a href="/news.html">
+                  news
+                </a>
+                <a href="#aboutUs">
+                  About US
+                </a>
+                <a href="/contact.html">
+                  Contact
+                </a>
+              </div>
+              <div class="col-4">
+                <label>What We Do</label>
+                <br />
+
+                <a href="#OurGames">
+                  Work
+                </a>
+                <a href="#Services">
+                  Services
+                </a>
+                <a href="/news.html">
+                  news
+                </a>
+                <!-- <a href="/">
+                  Clients
+                </a> -->
+                <!-- <a href="/">
+                  Serious Games
+                </a> -->
+                <!-- <a href="/">
+                  Marketing Games
+                </a> -->
+                <!-- <a href="/">
+                  Games For Fun
+                </a> -->
+              </div>
+              <div class="col-4">
+                <label>Who We Are</label>
+                <br />
+                <a href="#aboutUs">
+                  About Us
+                </a>
+                <a href="#aboutUs">
+                  Invest
+                </a>
+                <a href="#aboutUs">
+                  Careers
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   
-    <footer  class="footer">
+    <!-- <footer  class="footer">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-4 mb-0 mb-sm-4 text-center text-sm-left">
@@ -244,7 +344,7 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
   <script>
     $(document).ready(function () {
