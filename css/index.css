@@ -149,7 +149,8 @@ iframe.video {
   font-weight: bold;
   cursor: pointer;
   background: linear-gradient(128deg, #684b9d, #e5284e);
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  margin: auto; }
   .service__plus:hover {
     box-shadow: 2px 5px 11px 0px #06000063; }
 
