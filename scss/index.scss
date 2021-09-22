@@ -201,6 +201,7 @@ iframe.video {
   cursor: pointer;
   background: linear-gradient(128deg, #684b9d, #e5284e);
   transition: all 0.3s;
+  margin: auto;
   &:hover {
     // background: linear-gradient(228deg, #684b9d, #e5284e);
     // box-shadow: 1px 3px 18px 6px #88888854;
