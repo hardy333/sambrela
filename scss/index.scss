@@ -597,7 +597,7 @@ iframe.video {
   // backface-visibility: hidden;
 
   // backface-visibility: hidden;
-  transform: perspective(1000px) rotateY(0deg);
+  // transform: perspective(1000px) rotateY(0deg);
   transition: 1s;
 }
 
@@ -618,18 +618,18 @@ iframe.video {
 /*  UPDATED! front pane, placed above back */
 .front {
   z-index: 2;
-  -webkit-transform: rotateY(0deg);
-  transform: rotateY(0deg);
+  // -webkit-transform: rotateY(0deg);
+  // transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 .back {
-  -webkit-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
+  // -webkit-transform: rotateY(-180deg);
+  // transform: rotateY(-180deg);
 }
 
 .box:hover .front {
-  transform: perspective(1000px) rotateY(180deg);
+  // transform: perspective(1000px) rotateY(180deg);
 }
 .box .back {
   position: absolute;
@@ -639,8 +639,9 @@ iframe.video {
   height: 100%;
   // background: #f00;
   // backface-visibility: hidden;
-  transform: perspective(1000px) rotateY(-180deg);
+  // transform: perspective(1000px) rotateY(-180deg);
   transition: 1s;
+  opacity: 0;
 }
 .box:hover .back {
   transform: perspective(1000px) rotateY(0deg);
