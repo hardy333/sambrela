@@ -15,6 +15,10 @@
       format("svg");
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
+
+// font-family: 'Syncopate', sans-serif;
+
 $color-black: #001f2b;
 $color-wight: #fff;
 $color-blue: #009bd6;
@@ -671,6 +675,100 @@ iframe.video {
 //   width: 100px;
 //   height: 100px;
 // }
+
+#fullpage {
+  .cardWrapper {
+    position: relative;
+  }
+  .nftCard {
+    position: absolute;
+    &-first {
+      top: -40%;
+      right: -50%;
+    }
+
+    &-secund {
+      top: -40%;
+      right: -10%;
+    }
+
+    &-third {
+      top: 50%;
+    }
+  }
+  h3 {
+    font-family: "Syncopate", sans-serif;
+    color: rgba(219, 43, 84, 1);
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  h1 {
+    font-family: "Syncopate", sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    font-weight: 700;
+    color: transparent;
+    font-size: 68px;
+    margin-bottom: 24px;
+  }
+  p {
+    margin-top: 40px;
+    text-align: left;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  a.btn {
+    position: relative;
+    > svg {
+      z-index: 2;
+      position: relative;
+    }
+    .blur {
+      position: absolute;
+      position: absolute;
+      left: -162px;
+      top: -241px;
+      width: 700px;
+      svg {
+        max-width: 100%;
+      }
+    }
+  }
+  h2 {
+    font-size: 68px;
+    font-weight: 700;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    span {
+      color: rgba(219, 43, 84, 1);
+    }
+  }
+
+  // .svgShadow {
+  //   box-shadow: 7px 9px 20px 20px rgba(219, 43, 84, 0.8);
+  // }
+  #section0 {
+    background: url("../nfts/Rectangle\ 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #section1 {
+    background: url("../nfts/Rectangle\ 3\ \(1\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #section2 {
+    background: url("../nfts/Rectangle\ 3\ \(2\).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
 
 @media only screen and (max-width: 800px) {
   .modalImg {
