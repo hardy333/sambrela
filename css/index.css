@@ -510,8 +510,39 @@ iframe.video {
   width: 100%;
   height: 50%; }
 
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span {
+  margin: -2px 0px 0px -2px !important; }
+
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+  margin: -6px 0 0 -6px !important; }
+
+#fp-nav ul li a.active span {
+  width: 6px !important;
+  height: 20px !important;
+  left: 11px !important;
+  background: #fff !important; }
+
+#fp-nav ul li a span {
+  border-radius: 3px !important;
+  height: 10px !important;
+  background: rgba(255, 255, 255, 0.3) !important;
+  width: 6px !important; }
+
 #fullpage .cardWrapper {
   position: relative; }
+
+#fullpage .owl-nav {
+  position: absolute;
+  right: 0;
+  transform: translateY(50px); }
+  #fullpage .owl-nav button {
+    margin-left: 30px; }
+    #fullpage .owl-nav button:hover svg > rect {
+      fill: #4886ff; }
+    #fullpage .owl-nav button:active, #fullpage .owl-nav button:focus {
+      outline: none; }
 
 #fullpage .nftCard {
   position: absolute; }
@@ -545,6 +576,7 @@ iframe.video {
 #fullpage p {
   margin-top: 40px;
   text-align: left;
+  font-size: 16px;
   width: 100%;
   color: rgba(255, 255, 255, 0.7); }
 
