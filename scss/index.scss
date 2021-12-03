@@ -912,4 +912,46 @@ iframe.video {
     width: 90%;
     // min-height: 200px;
   }
+  #fp-nav.fp-left {
+    left: 0px !important;
+  }
+  .owl-carousel {
+  }
+
+  #fullpage {
+    .owl-nav {
+      position: absolute;
+      transform: translateY(50px);
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      margin-top: 16px;
+      margin-left: -20px;
+      svg {
+        max-width: 50px;
+      }
+    }
+    .content {
+      margin: auto;
+      max-width: calc(100vw - 70px);
+    }
+    * {
+      text-align: center !important;
+    }
+    h1 {
+      font-size: 24px;
+    }
+    .blur {
+      display: none;
+    }
+    h2 {
+      font-size: 24px;
+      &.break {
+        padding-left: 9px !important;
+      }
+    }
+    .cardWrapper {
+      display: none;
+    }
+  }
 }

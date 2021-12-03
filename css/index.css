@@ -676,4 +676,31 @@ iframe.video {
 
 @media only screen and (max-width: 700px) {
   .OurGames .owl-carousel img.slider-img {
-    width: 90%; } }
+    width: 90%; }
+  #fp-nav.fp-left {
+    left: 0px !important; }
+  #fullpage .owl-nav {
+    position: absolute;
+    transform: translateY(50px);
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    margin-top: 16px;
+    margin-left: -20px; }
+    #fullpage .owl-nav svg {
+      max-width: 50px; }
+  #fullpage .content {
+    margin: auto;
+    max-width: calc(100vw - 70px); }
+  #fullpage * {
+    text-align: center !important; }
+  #fullpage h1 {
+    font-size: 24px; }
+  #fullpage .blur {
+    display: none; }
+  #fullpage h2 {
+    font-size: 24px; }
+    #fullpage h2.break {
+      padding-left: 9px !important; }
+  #fullpage .cardWrapper {
+    display: none; } }
