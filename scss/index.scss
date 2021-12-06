@@ -707,6 +707,9 @@ iframe.video {
 #fullpage {
   .cardWrapper {
     position: relative;
+    img {
+      max-width: 300px;
+    }
   }
 
   .owl-nav {
@@ -732,17 +735,18 @@ iframe.video {
   .nftCard {
     position: absolute;
     &-first {
-      top: -40%;
-      right: -50%;
+      top: -29%;
+      right: -42%;
     }
 
     &-secund {
-      top: -40%;
-      right: -10%;
+      top: -27%;
+      right: 5%;
     }
 
     &-third {
       top: 50%;
+      top: 43%;
     }
   }
   h3 {
@@ -809,9 +813,31 @@ iframe.video {
     background-repeat: no-repeat;
   }
   #section1 {
-    background: url("../nfts/Rectangle\ 3\ \(1\).png");
-    background-size: cover;
+    background: url("../nfts/Rectangle\ 3\ \(3\).png");
+    background-size: 100% 100%;
+    position: relative;
     background-repeat: no-repeat;
+    overflow: hidden;
+    &:before {
+      background: rgba(39, 34, 62, 0.7);
+      width: 66vw;
+      height: 169vh;
+      content: "";
+      position: absolute;
+      transform: rotate(-32deg);
+      left: -17%;
+    }
+    .intro {
+      position: relative;
+      h2,
+      h1 {
+        text-transform: uppercase;
+      }
+    }
+    @media only screen and (max-width: 1200px) {
+      background-size: cover;
+      background-position: center;
+    }
   }
   #section2 {
     background: url("../nfts/Rectangle\ 3\ \(2\).png");

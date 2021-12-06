@@ -93,6 +93,12 @@ text-align: left;
   .responsiveMenu li a{
     color: #000 !important;
   }
+  .header a.active::after, .header a:hover::after{
+    background-color: #DB2B54;
+    width: 50px;
+    height: 2px;
+
+  }
   </style>
   <body class="games">
 
@@ -178,7 +184,7 @@ text-align: left;
         Let us show you what Sambrela accomplished so far.
       </p>
       <div class="text-left mt-5">
-      <a class="btn" href="#">
+      <a class="btn pl-0" href="#">
         <svg width="112" height="57" class="svgShadow" viewBox="0 0 162 77" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g filter="url(#filter0_i_5_35)">
           <rect width="162" height="77" rx="38.5" fill="white" fill-opacity="0.4"/>
@@ -224,9 +230,9 @@ text-align: left;
     </div>
 
     <div class="cardWrapper col-5">
-       <img class="nftCard nftCard-first" src="./nfts/Group 2.svg" />
-       <img class="nftCard nftCard-secund" src="./nfts/Group 2.svg" />
-       <img class="nftCard nftCard-third" src="./nfts/Group 2.svg" />
+       <img class="nftCard nftCard-first" id="nftCard-first"  src="./nfts/card3.svg" />
+       <img class="nftCard nftCard-secund"  src="./nfts/card2.svg" />
+       <img class="nftCard nftCard-third"  src="./nfts/Group 2.svg" />
     </div>
 		</div>
     </div>
@@ -541,6 +547,7 @@ $(".team").click(() =>{
 
 <script type="text/javascript" src="./nfts/fullpage.js"></script>
 <script type="text/javascript" src="./nfts/examples.js"></script>
+<script type="text/javascript" src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 
 <script type="text/javascript">
   $('.owl-carousel').owlCarousel({
@@ -658,5 +665,6 @@ $(".team").click(() =>{
         navigationPosition: 'left',
         // navigationTooltips: ['First page', 'Second page', 'Third and last page']
     });
+
 </script>
 </html>
