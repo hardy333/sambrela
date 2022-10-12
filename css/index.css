@@ -19,7 +19,7 @@ a:hover {
     font-weight: bold; }
 
 body {
-  font-family: "Eina01-Regular";
+  /*font-family: "Eina01-Regular";*/
   margin: 0; }
 
 #cover {
@@ -34,7 +34,8 @@ body {
   text-align: center;
   padding-top: 200px;
   color: #fff;
-  font-family: tahoma; }
+  /*font-family: tahoma;*/
+   }
 
 .vimeo-container {
   background: #49416d;
@@ -98,7 +99,7 @@ iframe.video {
     position: relative; }
   .header a {
     color: #fff;
-    font-family: "Eina01-Regular";
+    /*font-family: "Eina01-Regular";*/
     font-weight: 600;
     letter-spacing: 2px;
     display: inline-block;
