@@ -46,11 +46,11 @@
     border-radius: 0.5rem 0.5rem 0 0;
     width: 100%;
     display: block;
-    -o-object-fit: cover;
-    object-fit: cover;
-    max-height: max(10rem, 30vh);
-    aspect-ratio: 4/3;
-    mix-blend-mode: var(--card-blend-mode);
+    /* -o-object-fit: cover; */
+    /* object-fit: cover; */
+    /* max-height: max(10rem, 30vh); */
+    /* aspect-ratio: 4/3; */
+    /* mix-blend-mode: var(--card-blend-mode); */
   }
 
   .card img~* {
@@ -129,17 +129,21 @@
   .games .headerWrapper h3 {
     margin-top: 10px;
     font-size: 21px;
-    min-height: 100px;
-
+    /* min-height: 100px; */
+    margin-bottom: 1rem;
   }
 
   .header {
     background: #49416d !important;
 
   }
+
+  .card img {
+    width: 100%;
+  }
 </style>
 
-<body class="games">
+<body class="games" id="nft-games">
 
   <div class="headerWrapper">
     <header class="header">
@@ -147,13 +151,13 @@
         <img class="closeMenu" src="/imgs/Icon feather-menux.png" />
         <ul id="top-menu " class="list-unstyled  d-block  align-items-center mb-0">
           <li class="mx-4">
-            <a class="mobileLink" class="active" href="/#">Home</a>
+            <a class="mobileLink" class="active" href="/">Home</a>
           </li>
           <li class="mx-4">
             <a class="mobileLink" href="/#Services">Services</a>
           </li>
           <li class="mx-4">
-            <a class="mobileLink" href="/NFT-games.html">NFT Games</a>
+            <a class="mobileLink" href="/NFT-games.html/#nft-games">NFT Games</a>
           </li>
           <li class="mx-4">
             <a class="mobileLink" href="/#OurGames">Games</a>
@@ -208,42 +212,41 @@
     min-height: 400px; position: relative; ">
       <ul class="card-wrapper">
 
+        <!-- 1 -->
         <li class="card">
-          <img src='https://forbes.ge/wp-content/uploads/2021/10/Forbes-WEB-1810021-770x540.jpg' alt=''>
-          <h3><a href="">ქართული სტარტაპი NFT-თამაშებისა და NFT-კოლექციების გამოშვებას გეგმავს</a></h3>
-          <p>თანამედროვე ციფრული ტექნოლოგიების სფეროში მომუშავე ქართული სტარტაპი Sambrela... </p>
-          <a class="moreBtn"
-            href="https://forbes.ge/sambrela-s-akhali-gamotsveva-qarthuli-startapi-nft-thamashebisa-da-nft-koleqtsiebis-gamoshvebas-gegmavs/"
-            target="_blank">Read More</a>
+          <img src='./imgs/games-compressed/6-big.png' alt=''>
+          <h3><a href="/arena.html">Arena Master</a></h3>
+          <p>Arena Master is a multiplayer mobile game!
+            The game takes place between two players exchanging virtual coins that you can convert to real currency at a
+            certain rate Each player has six different characters in the game. </p>
+          <a class="moreBtn" href="/arena.html" target="_blank">Read More</a>
         </li>
+        <!-- 1 -->
+
         <li class="card">
-          <img src='https://www.tbcbusiness.ge/file/uploads/Images/3daa354c-5951-4070-b2bd-a704eb698b48.jpg' alt=''>
-          <h3><a href="">„სამბრელა“ - მობილური თამაშები მთელი მსოფლიოსთვის</a></h3>
-          <p>“სამბრელა” 2019 წელს დაფუძნებული თანამედროვე ციფრული ტექნოლოგიების სტარტაპია... </p>
-          <a class="moreBtn"
-            href="https://www.tbcbusiness.ge/ka/business-support/blogs/sambrela?fbclid=IwAR3UjwSIg5F4LYCfUy2W2xAwAZd5Sr5sPSyWURTdTl2gQB7-Qb2IUgGx1PU"
-            target="_blank">Read More</a>
+          <img src='./imgs/games-compressed/11-big.png' alt=''>
+          <h3><a href="/roundColors.html">Round Colors</a></h3>
+          <p>The main goal is to collect all round balls that are your color. In every round you are given a task to
+            collect a certain amount of balls that are exactly your color. </p>
+          <a class="moreBtn" href="/roundColors.html" target="_blank">Read More</a>
         </li>
+        <!-- 1 -->
+
         <li class="card">
-          <img src='https://www.tbcbusiness.ge/file/uploads/Images/9f1160f2-77d3-4dec-b17f-1f4446e8baad.jpg' alt=''>
-
-          <h3><a href="">Sambrela Presents Blockchain-Based Cybersport Gaming Platform 'Fabula' </a></h3>
-          <p>With Fabula’s unique SDK any mobile game can generate income both for players and its developers. The
-            Platform users can play their favorite games...</p>
-          <a class="moreBtn"
-            href="https://cbw.ge/startup/sambrela-presents-blockchain-based-cybersport-gaming-platform-fabula?fbclid=IwAR0mR2CR2Tqi0WkCGjkejwm4gNZ4Krgf9ILPjsw5c5LmldWRreNFpYLK3J8"
-            target="_blank">Read More</a>
-
+          <img src='./imgs/games-compressed/4-big.png' alt=''>
+          <h3><a href="fallMaster.html">Fall Master </a></h3>
+          <p>Fall quickly, manage your way through the obstacles, get high scores and challenge your friends!
+            The main goal is to fall fast and collect points! Manage way through obstacles and don’t crash!</p>
+          <a class="moreBtn" href="fallMaster.html" target="_blank">Read More</a>
         </li>
-
+        <!-- 1 -->
         <li class="card">
-          <img src='https://bm.ge/uploads/news/5ea5573c36969.jpg' alt=''>
-          <h3><a href="">ქართული სტარტაპი Sambrela, რომლის ანგარიშზეც 2 ბლოქჩეინ პროგრამა და 4 თამაშია</a></h3>
-          <p>თანამედროვე ციფრული ტექნოლოგიების ქართული კომპანია Sambrela 2019 წლის სექტემბერში დაარსდა...</p>
-          <a class="moreBtn"
-            href="https://bm.ge/ka/article/qartuli-startapi-sambrela-romlis-angarishzec-2-bloqchein-programa-da-4-tamashia-/54949"
-            target="_blank">Read More</a>
-
+          <img src='./imgs/games-compressed/10-big.png' alt=''>
+          <h3><a href="SpaceJumper.html">Space Jumper/a></h3>
+          <p>What do aliens look like? Check it out, survive them and open new stages!
+            Aliens are waiting you to save their life on different planets, jump on them and avoid meteors to get new
+            stages</p>
+          <a class="moreBtn" href="SpaceJumper.html" target="_blank">Read More</a>
         </li>
 
 
