@@ -257,7 +257,7 @@ iframe.video {
 
 .aboutUs {
   background-color: linear-gradient(128deg, #684b9d, #e5284e);
-  background-image: url("../imgs/Team Final.png");
+  background-image: url("../imgs/bg-compressed/Team\ Final.webp");
   object-fit: cover;
   position: relative;
   background-size: cover;
