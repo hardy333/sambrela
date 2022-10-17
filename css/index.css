@@ -38,7 +38,10 @@ body {
    }
 
 .vimeo-container {
-  background: #49416d;
+  /*background: #6F37AE;*/
+  /*margin-bottom: : 50000px;*/
+
+  background: #6C35AC;
   position: relative; }
   .vimeo-container::before {
     position: absolute;
@@ -111,8 +114,9 @@ iframe.video {
   background: #49416d;
   position: fixed;
   left: 0;
-  z-index: 4;
+  z-index: 100;
   width: 100%;
+  height: 83px;
   top: 0; }
   .header li {
     position: relative; }
@@ -139,8 +143,29 @@ iframe.video {
     .header a.active::after, .header a:hover::after {
       background: #fff; }
 
+.header__main-menu{
+  height: 100%;
+  /*background-color: red;*/
+  /*outline: 2px solid black;*/
+
+}
+
+.header__main-menu > ul{
+  /*border: 5px solid green;*/
+  height: 100%;
+}
+
+#top-menu{
+  /*background-color: green;*/
+  /*outline: 10px solid yellow;*/
+}
+
 .partners {
-  padding-top: 140px; }
+  padding-top: 140px;
+
+  /*padding-top: 50000px;*/
+
+   }
   .partners img {
     max-width: 100%; }
 
