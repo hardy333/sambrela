@@ -55,25 +55,25 @@
       <img class="closeMenu" src="./imgs/Icon feather-menux.png" />
       <ul id="top-menu" class="list-unstyled navbar-nav  d-block  align-items-center mb-0">
         <li class="mx-4">
-          <a class="mobileLink" class="active" href="/#"></a>
+          <a class="mobileLink" class="active" href="./#"></a>
         </li>
         <li class="mx-4">
           <a class="mobileLink" class="active" href="./nft-games.html">Nft Games</a>
         </li>
         <li class="mx-4">
-          <a class="mobileLink" href="/#Services">Services</a>
+          <a class="mobileLink" href="./#Services">Services</a>
         </li>
         <li class="mx-4">
-          <a class="mobileLink" href="/#OurGames">Games</a>
+          <a class="mobileLink" href="./#OurGames">Games</a>
         </li>
         <li class="mx-4">
-          <a class="nav-link " href="/news.html">News</a>
+          <a class="nav-link " href="./news.html">News</a>
         </li>
         <li class="mx-4">
-          <a class="mobileLink" href="/#aboutUs">About Us</a>
+          <a class="mobileLink" href="./#aboutUs">About Us</a>
         </li>
         <li class="mx-4">
-          <a class="mobileLink" href="/#Contact">Contact</a>
+          <a class="mobileLink" href="./#Contact">Contact</a>
         </li>
     </div>
 
@@ -88,22 +88,25 @@
         <img class="d-block openMenu d-md-none" src="./imgs/Icon feather-menu.png" />
         <ul id="top-menu " class="list-unstyled navvIggg d-none d-md-flex align-items-center mb-0">
           <li class="mx-lg-3 mx-1">
-            <a class="nav-link " href="/#Home">Home</a>
+            <a class=" " href="./#Home">Home</a>
           </li>
           <li class="mx-lg-3 mx-1">
-            <a class="mobileLink" class="active" href="./nft-games.html">NFT Games</a>
+            <a class="" class="active" href="./nft-games.html">NFT Games</a>
           </li>
           <li class="mx-lg-3 mx-1">
-            <a class="nav-link " href="/#Services">Services</a>
+            <a class=" " href="./#Services">Services</a>
           </li>
           <li class="mx-lg-3 mx-1">
-            <a class="nav-link " href="/#OurGames">Games</a>
+            <a class=" " href="./#OurGames">Games</a>
           </li>
           <li class="mx-lg-3 mx-1">
-            <a class="nav-link " href="/news.html">News</a>
+            <a class=" " href="./news.html">News</a>
           </li>
           <li class="mx-lg-3 mx-1">
-            <a class="nav-link " href="/#aboutUs">About Us</a>
+            <a class=" " href="./#aboutUs">About Us</a>
+          </li>
+          <li class="mx-lg-3 mx-1">
+            <a class=" " href="./contact.html">Contact</a>
           </li>
 
         </ul>
@@ -1250,30 +1253,32 @@ influencer marketing
 
 
   $(function () {
-    $(window).on('scroll', function () {
-      var WindowTop = $(window).scrollTop();
-      $('section').each(function (i) {
-        if (WindowTop > $(this).offset().top - 50 &&
-          WindowTop < $(this).offset().top + $(this).outerHeight(true)
-        ) {
-          // debugger
-          $('.navvIggg > li > a').removeClass('active');
-          $('.navvIggg li').eq(i).find('a').addClass('active');
-        }
-      });
-    });
-    $('a[href*=\\#]:not([href=\\#])').click(function () {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 1000);
-          return false;
-        }
-      }
-    });
+
+    // $(window).on('scroll', function () {
+    //   var WindowTop = $(window).scrollTop();
+    //   $('section').each(function (i) {
+    //     if (WindowTop > $(this).offset().top - 50 &&
+    //       WindowTop < $(this).offset().top + $(this).outerHeight(true)
+    //     ) {
+    //       // debugger
+    //       $('.navvIggg > li > a').removeClass('active');
+    //       $('.navvIggg li').eq(i).find('a').addClass('active');
+    //     }
+    //   });
+    // });
+
+    // $('a[href*=\\#]:not([href=\\#])').click(function () {
+    //   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    //     var target = $(this.hash);
+    //     target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    //     if (target.length) {
+    //       $('html,body').animate({
+    //         scrollTop: target.offset().top
+    //       }, 1000);
+    //       return false;
+    //     }
+    //   }
+    // });
 
 
 
