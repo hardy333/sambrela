@@ -1,58 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sambrela</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs2.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body class="games">
 
-<div class="headerWrapper">
-    <header style="background-color: #49416d;" class="header">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sambrela</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs2.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <style>
+    .contactPageForm {
+      padding: 20px;
+      /* background-color: red; */
+    }
+
+    .contactPageForm input {
+      outline: none;
+      /* border: none; */
+    }
+
+    .contactPageForm button {
+      cursor: pointer;
+      border: none;
+      box-shadow: 0px 0px 5px -2px rgba(0, 0, 0, 0.2);
+    }
+
+    .contactPageForm button:hover {
+      filter: brightness(120%)
+    }
+  </style>
+
+</head>
+
+<body class="games">
+
+  <div class="headerWrapper">
+    <!--  -->
+    <!--  -->
+    <!--  -->
+
+
+    <header class="header" style="background: #49416d;">
+      <div class="responsiveMenu d-none">
+        <img class="closeMenu" src="./imgs/Icon feather-menux.png" />
+        <ul id="top-menu" class="list-unstyled navbar-nav  d-block  align-items-center mb-0">
+          <li class="mx-4">
+            <a class="mobileLink" class="active" href="./#"></a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" class="active" href="./nft-games.html">Nft Games</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="./#Services">Services</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="./#OurGames">Games</a>
+          </li>
+          <li class="mx-4">
+            <a class="nav-link " href="./news.html">News</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="./#aboutUs">About Us</a>
+          </li>
+      </div>
+
+      <div class="d-flex py-3 container justify-content-between h-100">
+        <div class="header__logo">
+          <a href="/">
+            <img class="d-none d-md-inline" src="./imgs/Sambrela_Logo-02.png" />
+            <img class="  d-inline  d-md-none" src="./imgs/logoNuevo-Color-V2.png" />
+          </a>
+        </div>
+        <div class="header__main-menu d-flex align-items-center">
+          <img class="d-block openMenu d-md-none" src="./imgs/Icon feather-menu.png" />
+          <ul id="top-menu " class="list-unstyled navvIggg d-none d-md-flex align-items-center mb-0">
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#Home">Home</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class="" class="active" href="./nft-games.html">NFT Games</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#Services">Services</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#OurGames">Games</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./news.html">News</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#aboutUs">About Us</a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- <header style="background-color: #49416d;" class="header">
       <div class="responsiveMenu d-none">
         <img class="closeMenu" src="/imgs/Icon feather-menux.png" />
-        <ul
-        id="top-menu "
-        class="list-unstyled  d-block  align-items-center mb-0"
-      >
-        <li class="mx-4">
-          <a class="mobileLink" class="active" href="/">Home</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">Services</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">Games</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">About Us</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/">Contact</a>
-        </li>
+        <ul id="top-menu " class="list-unstyled  d-block  align-items-center mb-0">
+          <li class="mx-4">
+            <a class="mobileLink" class="active" href="/">Home</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/">Services</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/">Games</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/">About Us</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/">Contact</a>
+          </li>
       </div>
       <div class="d-flex py-3 container justify-content-between">
         <div class="header__logo">
@@ -63,10 +141,7 @@
         </div>
         <div class="header__main-menu d-flex align-items-center">
           <img class="d-block openMenu d-md-none" src="/imgs/Icon feather-menu.png" />
-          <ul
-            id="top-menu "
-            class="list-unstyled d-none d-md-flex align-items-center mb-0"
-          >
+          <ul id="top-menu " class="list-unstyled d-none d-md-flex align-items-center mb-0">
             <li class="mx-4">
               <a class="active" href="/">Home</a>
             </li>
@@ -79,146 +154,159 @@
             <li class="mx-4">
               <a href="/">About Us</a>
             </li>
-            <!-- <li class="mx-4">
+            <li class="mx-4">
               <a href="#ds">Contact</a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
-    </header>
+    </header> -->
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+
+
     <div style="height: calc(100vh - 208px);
-    min-height: 400px; position: relative; " >
-            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.811877736984!2d44.764459387240024!3d41.72457809683595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044732024055555%3A0x9dadefdeec90af70!2s27g%20Adam%20Mitskevichi%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1623414105326!5m2!1sen!2sge" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    <div class="container containerContact pt-5">
-         <div class="row">
-          <div class="col-md-6 col-6">
+    min-height: 400px; position: relative; ">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.811877736984!2d44.764459387240024!3d41.72457809683595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4044732024055555%3A0x9dadefdeec90af70!2s27g%20Adam%20Mitskevichi%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1623414105326!5m2!1sen!2sge"
+        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <div class="container containerContact pt-5" style="pointer-events: none;">
+        <!-- Row -->
+        <div class="row">
+          <div class="col-md-6 col-6" style="pointer-events: none;">
 
           </div>
-          <div class="col-md-6 col-6 py-5 px-5 containerFOrm">
+          <div class="col-md-6 col-6 py-5 px-5 containerFOrm" style="pointer-events: all;">
             <div class="d-flex justify-content-end  footer__menus-section">
-              <div class="contactPageForm">
-            <label class="mt-2">Contact Us</label><br/>
-            <input placeholder="Name" /> <br/>
-            <input placeholder="E-mail" /><br/>
-            <input placeholder="Subject" />
-<div class="text-right">
-    <button>Send</button>
-</div>
-</div>
-           
-          </div>
+              <form class="contactPageForm">
+                <label class="mt-2">Contact Us</label><br />
+                <input placeholder="Name" /> <br />
+                <input placeholder="E-mail" /><br />
+                <input placeholder="Subject" />
+                <div class="text-right">
+                  <button>Send</button>
+                </div>
+              </form>
 
             </div>
-         </div>
+
+          </div>
+        </div>
+      </div>
     </div>
-    </div>
-  
-    <footer  class="footer">
+
+
+    <!-- Footer -->
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col-12 col-sm-4 mb-0 mb-sm-4 text-center text-sm-left">
             <a href="/">
               <img src="/imgs/Sambrela_Logo-02.png" />
             </a>
-           
-           
+
+
           </div>
           <div class="col-sm-4 col-12">
             <label class="mt-0">Address</label>
             <p class="mb-0">27g Adam Mitskevichi St 0194 Tbilisi, Georgia</p>
           </div>
-          <div style="max-width: 200px; margin-left: auto;" class="col-12 col-sm-4 d-flex justify-content-end flex-column   footer__menus-section">
+          <div style="max-width: 200px; margin-left: auto;"
+            class="col-12 col-sm-4 d-flex justify-content-end flex-column   footer__menus-section">
             <label class="mt-2">Contact</label>
             <p class="mb-1">
-                +995(032) 2 32 32 32 <br/>
-                hello@sambrela.com
+              +995(032) 2 32 32 32 <br />
+              hello@sambrela.com
             </p>
-           
-          </div>
+
           </div>
         </div>
       </div>
-    </footer>
-  </body>
-  <script>
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        navText: [
-          "<img class='left-arrow' src='./imgs/Path 58.png'>",
-          "<img class='right-arrow' src='./imgs/Path 59.png'>",
-        ],
-        nav: true,
-      });
-
-      $(".closeMenu").click(() =>{
-        $(".responsiveMenu").removeClass("d-flex")
-        $(".responsiveMenu").addClass("d-none")
-
-
-      })
-
-      $(".mobileLink").click(() =>{
-        $(".responsiveMenu").removeClass("d-flex")
-        $(".responsiveMenu").addClass("d-none")
-      })
-
-      
-      $(".openMenu").click(() =>{
-        $(".responsiveMenu").removeClass("d-none")
-        $(".responsiveMenu").addClass("d-flex")
-
-      })
-
-
-$(".service__plus").click((e) => {
-  e.stopPropagation()
-  $(".ServiceModal__wraper").addClass("d-flex")
-  $(".ServiceModal__wraper").removeClass("d-none")
-})
-
-$(".closeModal").click(() => {
-  $(".ServiceModal__wraper").addClass("d-none")
-  $(".ServiceModal__wraper").removeClass("d-flex")
-})
-
-$(".serviceItemMobile").click(function(e){
-  e.stopPropagation()
-  $(".ServiceModal__wraper").addClass("d-flex")
-  $(".ServiceModal__wraper").removeClass("d-none")
-})
-
-
-
-
-$(".invest").click(() =>{
-  // debugger
-  $(".aboutUs__tabs li").each(function(){
-    $(this).removeClass("active")
-  })
-    $(".investment").removeClass("d-none")
-    $(".teamContent").addClass("d-none")
-    $(".invest").addClass("active")
-    $(".aboutUs").css({"background-image": "url('../imgs/invest.png')" })
-   
-})
-
-
-$(".team").click(() =>{
-  // debugger
-  $(".aboutUs__tabs li").each(function(){
-    $(this).removeClass("active")
-  })
-    $(".team").addClass("active")
-    $(".investment").addClass("d-none")
-    $(".teamContent").removeClass("d-none")
-    $(".aboutUs").css({"background-image": "url('../imgs/Mask Group 14.png')" })
-
-})
-      
+  </div>
+  </footer>
+</body>
+<script>
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      navText: [
+        "<img class='left-arrow' src='./imgs/Path 58.png'>",
+        "<img class='right-arrow' src='./imgs/Path 59.png'>",
+      ],
+      nav: true,
     });
+
+    $(".closeMenu").click(() => {
+      $(".responsiveMenu").removeClass("d-flex")
+      $(".responsiveMenu").addClass("d-none")
+
+
+    })
+
+    $(".mobileLink").click(() => {
+      $(".responsiveMenu").removeClass("d-flex")
+      $(".responsiveMenu").addClass("d-none")
+    })
+
+
+    $(".openMenu").click(() => {
+      $(".responsiveMenu").removeClass("d-none")
+      $(".responsiveMenu").addClass("d-flex")
+
+    })
+
+
+    $(".service__plus").click((e) => {
+      e.stopPropagation()
+      $(".ServiceModal__wraper").addClass("d-flex")
+      $(".ServiceModal__wraper").removeClass("d-none")
+    })
+
+    $(".closeModal").click(() => {
+      $(".ServiceModal__wraper").addClass("d-none")
+      $(".ServiceModal__wraper").removeClass("d-flex")
+    })
+
+    $(".serviceItemMobile").click(function (e) {
+      e.stopPropagation()
+      $(".ServiceModal__wraper").addClass("d-flex")
+      $(".ServiceModal__wraper").removeClass("d-none")
+    })
+
+
+
+
+    $(".invest").click(() => {
+      // debugger
+      $(".aboutUs__tabs li").each(function () {
+        $(this).removeClass("active")
+      })
+      $(".investment").removeClass("d-none")
+      $(".teamContent").addClass("d-none")
+      $(".invest").addClass("active")
+      $(".aboutUs").css({ "background-image": "url('../imgs/invest.png')" })
+
+    })
+
+
+    $(".team").click(() => {
+      // debugger
+      $(".aboutUs__tabs li").each(function () {
+        $(this).removeClass("active")
+      })
+      $(".team").addClass("active")
+      $(".investment").addClass("d-none")
+      $(".teamContent").removeClass("d-none")
+      $(".aboutUs").css({ "background-image": "url('../imgs/Mask Group 14.png')" })
+
+    })
+
+  });
 
     ///////////////
     // Cache selectors
-  </script>
+</script>
+
 </html>
