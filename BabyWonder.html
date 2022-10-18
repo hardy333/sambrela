@@ -1,65 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sambrela</title>
-    <link rel="icon" href="./imgs/2_00000.png">
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs2.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-  </head>
-  <body class="games">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sambrela</title>
+  <link rel="icon" href="./imgs/2_00000.png">
 
-<div class="headerWrapper">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs2.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body class="games">
+
+  <div class="headerWrapper">
     <header class="header">
       <div class="responsiveMenu d-none">
         <img class="closeMenu" src="/imgs/Icon feather-menux.png" />
-        <ul
-        id="top-menu "
-        class="list-unstyled  d-block  align-items-center mb-0"
-      >
-        <li class="mx-4">
-          <a class="mobileLink" class="active" href="/#">Home</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/#Services">Services</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/#OurGames">Games</a>
-        </li>
-        <li class="mx-4">
-          <a class="nav-link "  href="/news.html">News</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/#aboutUs">About Us</a>
-        </li>
-        <li class="mx-4">
-          <a class="mobileLink" href="/#aboutUs">Contact</a>
-        </li>
+        <ul id="top-menu " class="list-unstyled  d-block  align-items-center mb-0">
+          <li class="mx-4">
+            <a class="mobileLink" class="active" href="/#">Home</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/#Services">Services</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/#OurGames">Games</a>
+          </li>
+          <li class="mx-4">
+            <a class="nav-link " href="/news.html">News</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/#aboutUs">About Us</a>
+          </li>
+          <li class="mx-4">
+            <a class="mobileLink" href="/#aboutUs">Contact</a>
+          </li>
       </div>
-      <div class="d-flex py-3 container justify-content-between">
+      <div class="d-flex py-3 container justify-content-between h-100">
+        <div class="header__logo">
+          <a href="./#home">
+            <img class="d-none d-md-inline" src="./imgs/Sambrela_Logo-02.png" />
+            <img class="  d-inline  d-md-none" src="./imgs/logoNuevo-Color-V2.png" />
+          </a>
+        </div>
+        <div class="header__main-menu d-flex align-items-center">
+          <img class="d-block openMenu d-md-none" src="./imgs/Icon feather-menu.png" />
+          <ul id="top-menu " class="list-unstyled navvIggg d-none d-md-flex align-items-center mb-0">
+            <!-- Navigation Desktop -->
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#home">Home</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class="" class="active" href="./nft-games.html">NFT Games</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#Services">Services</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#OurGames">Games</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./news.html">News</a>
+            </li>
+            <li class="mx-lg-3 mx-1">
+              <a class=" " href="./#aboutUs">About Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+
+      <!-- <div class="d-flex py-3 container justify-content-between">
         <div class="header__logo">
           <a href="/">
             <img class="d-none d-md-inline" src="/imgs/Sambrela_Logo-02.png" />
@@ -87,103 +111,102 @@
             <li class="mx-4">
               <a href="/#aboutUs">About Us</a>
             </li>
-            <!-- <li class="mx-4">
-              <a href="#ds">Contact</a>
-            </li> -->
           </ul>
         </div>
-      </div>
+      </div> -->
     </header>
     <div class="gamesHedding">
-         <div class="container">
-           <div class="row">
-              <div class="col-12 col-sm-6">
-                 <h3> Baby Wonder Day - Kids Puzzles</h3>
-                 <h6>
-                    Keep your toddlers occupied with varied free instructional baby games.
-                    Our games for toddlers facilitate them to find out and improve skills whereas having nice fun too.
-                    
-                  
-                </h6>
-                <h6>
-                    This instructional game helps kids develop coordination, attention, logic, and motor skills. The app was created below the steering of consultants in educational institution education and psychological science.
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <h3> Baby Wonder Day - Kids Puzzles</h3>
+            <h6>
+              Keep your toddlers occupied with varied free instructional baby games.
+              Our games for toddlers facilitate them to find out and improve skills whereas having nice fun too.
 
-                </h6>
-                
-                 <div>
-                   <a href="" >
-                     <img src="" />
-                   </a>
-                 </div>
-                 <!-- <a target="_blank" href=" https://play.google.com/store/apps/details?id=sword.ragdoll.fight">
+
+            </h6>
+            <h6>
+              This instructional game helps kids develop coordination, attention, logic, and motor skills. The app was
+              created below the steering of consultants in educational institution education and psychological science.
+
+            </h6>
+
+            <div>
+              <a href="">
+                <img src="" />
+              </a>
+            </div>
+            <!-- <a target="_blank" href=" https://play.google.com/store/apps/details?id=sword.ragdoll.fight">
                   <img src="/imgs/download (1).png" />
                </a> -->
-               <!-- <a target="_blank" href="https://apps.apple.com/us/app/21-solitaire/id1530921189">
+            <!-- <a target="_blank" href="https://apps.apple.com/us/app/21-solitaire/id1530921189">
                   <img src="/imgs/download.png" />
                </a> -->
-               <br/>
-               <br/>
-              </div>
-              <div class="col-12 col-sm-6 text-right">
-    <img style="padding-top: 50px; width: 80%;" src="/imgs/Asset_163x.png" />
-              </div>
-           </div>
+            <br />
+            <br />
+          </div>
+          <div class="col-12 col-sm-6 text-right">
+            <img style="padding-top: 50px; width: 80%;" src="/imgs/Asset_163x.png" />
+          </div>
+        </div>
 
-         </div>
+      </div>
     </div>
   </div>
   <div class="aboutGame">
-          <div class="container">
-                    <div class="row mt-5">
-                      <div class="col-12 col-sm-7">
-                        <h2>How to play:</h2>
-                        <ul>
-                          <li>
-                            only screen time for your nestling
-                            </li>
-                            <li>
-                                Interactive and fun learning expertise
-                                </li>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 col-sm-7">
+          <h2>How to play:</h2>
+          <ul>
+            <li>
+              only screen time for your nestling
+            </li>
+            <li>
+              Interactive and fun learning expertise
+            </li>
 
-                                <li>
-                                    Games square measure easy and maybe vie while no adult help
-                                    </li>
+            <li>
+              Games square measure easy and maybe vie while no adult help
+            </li>
 
-                                   
-                         
-                               
-                        </ul>
-                      </div>
-                      <div class="col-12 col-sm-5 text-center text-sm-right">
-                        <img style="max-width: 190px;" src="/imgs/Screen_12.jpg" />
-                      </div>
-                    </div>
-                    <div class="row mt-5">
-                      <div class="col-12 col-sm-4 d-none d-sm-block text-center text-sm-left">
-                        <img style="max-width: 240px;" src="/imgs/Screen_9.jpg" />
-                      </div>
-                      <div class="col-12 col-sm-8">
-                        <h2>Game Features:</h2>
-                        <ul>
-                        
 
+
+
+          </ul>
+        </div>
+        <div class="col-12 col-sm-5 text-center text-sm-right">
+          <img style="max-width: 190px;" src="/imgs/Screen_12.jpg" />
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-sm-4 d-none d-sm-block text-center text-sm-left">
+          <img style="max-width: 240px;" src="/imgs/Screen_9.jpg" />
+        </div>
+        <div class="col-12 col-sm-8">
+          <h2>Game Features:</h2>
+          <ul>
 
 
 
 
 
-                          <li>
-                            App interface that toddlers will navigate severally and safely
-                        </li>
-                        <li>
-                            
-                             fully safe environment: youngsters can't access settings, purchase interfaces, and external links, while not folks
-                        </li>
-                        <li>
-                            Baby Games also are playable whereas offline
-                        </li>
-                         
-                          <!-- <li>21 Solitaire can be played Head to Head with other players
+
+
+            <li>
+              App interface that toddlers will navigate severally and safely
+            </li>
+            <li>
+
+              fully safe environment: youngsters can't access settings, purchase interfaces, and external links, while
+              not folks
+            </li>
+            <li>
+              Baby Games also are playable whereas offline
+            </li>
+
+            <!-- <li>21 Solitaire can be played Head to Head with other players
                              In Head to Head tournaments both players play the same deck and the player with most points wins
                             
                           </li>
@@ -192,20 +215,20 @@
                           </li>
                           <li>Platform has leaderboards and statistics: See how you stack up against other players</li>
                           <li>Level ups</li> -->
-                        </ul>
-                      </div>
-                      
-                    </div>
-          </div>
-          <hr/>
-          <div class="text-center arrows">
-          <a href="/BabyCare.html">Previous Game <img src="/imgs/213Icon ionic-ios-arrow-back.png" /> </a>
-          <a class="d-inle-block ml-3" href="/games.html">  <img src="/imgs/Icon ionic-ios-arrow-back.png" />  Next Game </a>
+          </ul>
         </div>
+
+      </div>
+    </div>
+    <hr />
+    <div class="text-center arrows">
+      <a href="/BabyCare.html">Previous Game <img src="/imgs/213Icon ionic-ios-arrow-back.png" /> </a>
+      <a class="d-inle-block ml-3" href="/games.html"> <img src="/imgs/Icon ionic-ios-arrow-back.png" /> Next Game </a>
+    </div>
   </div>
   <footer style="margin-top: 60px;" class="footer">
     <div class="container">
-      <div  class="row">
+      <div class="row">
         <div class="col-12 col-sm-6 mb-0 mb-sm-4 text-center text-sm-left">
           <a href="/">
             <img src="/imgs/Sambrela_Logo-02.png" />
@@ -297,104 +320,105 @@
       </div>
     </div>
   </footer>
-  </body>
-  <script>
-    $(document).ready(function () {
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        navText: [
-          "<img class='left-arrow' src='./imgs/Path 58.png'>",
-          "<img class='right-arrow' src='./imgs/Path 59.png'>",
-        ],
-        nav: true,
-      });
-
-      $(".closeMenu").click(() =>{
-        $(".responsiveMenu").removeClass("d-flex")
-        $(".responsiveMenu").addClass("d-none")
-
-
-      })
-
-      $(".mobileLink").click(() =>{
-        $(".responsiveMenu").removeClass("d-flex")
-        $(".responsiveMenu").addClass("d-none")
-      })
-
-      
-      $(".openMenu").click(() =>{
-        $(".responsiveMenu").removeClass("d-none")
-        $(".responsiveMenu").addClass("d-flex")
-
-      })
-
-//       $(".responsiveMenu li ").each(() => {
-//         // debugger
-// if( $(".responsiveMenu").hasClass("d-flex")){
-//   $(this).click(() => {
-//     debugger
-//           $(".responsiveMenu").removeClass("d-flex")
-
-
-
-//         $(".responsiveMenu").addClass("d-none")
-//         })
-// }
-        
-      
-
-
-//       })
-
-
-$(".service__plus").click((e) => {
-  e.stopPropagation()
-  $(".ServiceModal__wraper").addClass("d-flex")
-  $(".ServiceModal__wraper").removeClass("d-none")
-})
-
-$(".closeModal").click(() => {
-  $(".ServiceModal__wraper").addClass("d-none")
-  $(".ServiceModal__wraper").removeClass("d-flex")
-})
-
-$(".serviceItemMobile").click(function(e){
-  e.stopPropagation()
-  $(".ServiceModal__wraper").addClass("d-flex")
-  $(".ServiceModal__wraper").removeClass("d-none")
-})
-
-
-
-
-$(".invest").click(() =>{
-  // debugger
-  $(".aboutUs__tabs li").each(function(){
-    $(this).removeClass("active")
-  })
-    $(".investment").removeClass("d-none")
-    $(".teamContent").addClass("d-none")
-    $(".invest").addClass("active")
-    $(".aboutUs").css({"background-image": "url('../imgs/invest.png')" })
-   
-})
-
-
-$(".team").click(() =>{
-  // debugger
-  $(".aboutUs__tabs li").each(function(){
-    $(this).removeClass("active")
-  })
-    $(".team").addClass("active")
-    $(".investment").addClass("d-none")
-    $(".teamContent").removeClass("d-none")
-    $(".aboutUs").css({"background-image": "url('../imgs/Mask Group 14.png')" })
-
-})
-      
+</body>
+<script>
+  $(document).ready(function () {
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      navText: [
+        "<img class='left-arrow' src='./imgs/Path 58.png'>",
+        "<img class='right-arrow' src='./imgs/Path 59.png'>",
+      ],
+      nav: true,
     });
+
+    $(".closeMenu").click(() => {
+      $(".responsiveMenu").removeClass("d-flex")
+      $(".responsiveMenu").addClass("d-none")
+
+
+    })
+
+    $(".mobileLink").click(() => {
+      $(".responsiveMenu").removeClass("d-flex")
+      $(".responsiveMenu").addClass("d-none")
+    })
+
+
+    $(".openMenu").click(() => {
+      $(".responsiveMenu").removeClass("d-none")
+      $(".responsiveMenu").addClass("d-flex")
+
+    })
+
+    //       $(".responsiveMenu li ").each(() => {
+    //         // debugger
+    // if( $(".responsiveMenu").hasClass("d-flex")){
+    //   $(this).click(() => {
+    //     debugger
+    //           $(".responsiveMenu").removeClass("d-flex")
+
+
+
+    //         $(".responsiveMenu").addClass("d-none")
+    //         })
+    // }
+
+
+
+
+    //       })
+
+
+    $(".service__plus").click((e) => {
+      e.stopPropagation()
+      $(".ServiceModal__wraper").addClass("d-flex")
+      $(".ServiceModal__wraper").removeClass("d-none")
+    })
+
+    $(".closeModal").click(() => {
+      $(".ServiceModal__wraper").addClass("d-none")
+      $(".ServiceModal__wraper").removeClass("d-flex")
+    })
+
+    $(".serviceItemMobile").click(function (e) {
+      e.stopPropagation()
+      $(".ServiceModal__wraper").addClass("d-flex")
+      $(".ServiceModal__wraper").removeClass("d-none")
+    })
+
+
+
+
+    $(".invest").click(() => {
+      // debugger
+      $(".aboutUs__tabs li").each(function () {
+        $(this).removeClass("active")
+      })
+      $(".investment").removeClass("d-none")
+      $(".teamContent").addClass("d-none")
+      $(".invest").addClass("active")
+      $(".aboutUs").css({ "background-image": "url('../imgs/invest.png')" })
+
+    })
+
+
+    $(".team").click(() => {
+      // debugger
+      $(".aboutUs__tabs li").each(function () {
+        $(this).removeClass("active")
+      })
+      $(".team").addClass("active")
+      $(".investment").addClass("d-none")
+      $(".teamContent").removeClass("d-none")
+      $(".aboutUs").css({ "background-image": "url('../imgs/Mask Group 14.png')" })
+
+    })
+
+  });
 
     ///////////////
     // Cache selectors
-  </script>
+</script>
+
 </html>
