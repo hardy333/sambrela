@@ -4,6 +4,9 @@ const NFT_GAMES_DATA = {
     name: "Medieval Strategy Battle",
     title: "Medieval Strategy Battle is a multiplayer strategy mobile game!",
     img_main: "Battle.png",
+    ios: "https://apps.apple.com/us/app/medieval-strategy-battle/id1527871139",
+    android:
+      "https://play.google.com/store/apps/details?id=com.Sambrela.ArenaMaster",
     about: [
       "Each player in the game gets access to six different characters. The game is played between two players exchanging tokens that can be converted to real money at a specific rate. The skill sets of the characters are the same. The game is played in various arenas that are chosen at random and can be played with a variety of wagers to gain Tokens.",
 
@@ -32,6 +35,8 @@ const NFT_GAMES_DATA = {
     name: "The Ballies game",
     title: "The Ballies game is a multiplayer PVP basketball strategy game!",
     img_main: "Ball.png",
+    ios: null,
+    android: null,
     about: [
       "The goal of the game is to get 12 points before your opponent. Whoever gets 12 points first, wins. There must be at least 2 points difference for the win. The game can not finish 11-12. ",
 
@@ -65,6 +70,8 @@ const NFT_GAMES_DATA = {
     name: "Deer Hunting Target",
     title: "Deer Hunting Target is a skill-based multiplayer mobile game!",
     img_main: "Hunting.png",
+    ios: "https://apps.apple.com/us/app/deer-hunting-target/id1588701810",
+    android: null,
     about: [
       "Each player aims and fires their shots at the deers that appear on the screen.The players with the highest accuracy get more points and ultimately win the Tokens.",
 
@@ -97,6 +104,8 @@ const NFT_GAMES_DATA = {
     title:
       "Draco dice is a turn-based player-versus-player game of strategy and luck, leveraging the players’ owned Draco Dice assets.",
     img_main: "Dragon.png",
+    ios: null,
+    android: null,
     about: [
       "Customize your assets and keep your attention on the various status effects and special enchantments, to ensure victory!",
 
@@ -130,13 +139,26 @@ const NFT_GAMES_DATA = {
     ],
   },
   // game 5
-  game5: {
-    name: "",
+  Arena: {
+    name: "Arena Master",
     title: "",
-    img_main: "",
+    img_main: "Arena.png",
+    ios: null,
+    android: null,
     about: [],
     hot_to_play: [],
 
     game_features: [],
   },
+  // game6: {
+  //   name: "",
+  //   title: "",
+  //   img_main: "",
+  //   ios: null,
+  //   android: null,
+  //   about: [],
+  //   hot_to_play: [],
+
+  //   game_features: [],
+  // },
 };
