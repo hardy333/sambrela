@@ -141,14 +141,47 @@ const NFT_GAMES_DATA = {
   // game 5
   Arena: {
     name: "Arena Master",
-    title: "",
+    title: "Arena Master is a turn-based player-versus-player puzzle game!",
     img_main: "Arena.png",
-    ios: null,
-    android: null,
-    about: [],
-    hot_to_play: [],
+    ios: "https://apps.apple.com/us/app/arena-master-puzzle-game/id1625081403",
+    android:
+      "https://play.google.com/store/apps/details?id=com.Sambrela.ArenaMasterPuzzleGame",
+    about: [
+      "Use the unique abilities of your characters to gather more points, and win after the 3 rounds have finished!",
 
-    game_features: [],
+      "Pick characters from 5 different factions, across 3 different rarities - dominate the PVP mode, and move on to tournaments and P2E. ",
+
+      "Mess up your enemies’ plans by targeting objects that would be beneficial for them, or decide to collect your own ability points, to have a huge impact on the game.",
+
+      "Average Arena Master player’s will be good at seeing most options, but the best will analyze them all and pick out the most optimal!",
+    ],
+    hot_to_play: [
+      "There are 3 rounds in total.",
+
+      "Each player has 2 moves per round - moves can also be earned mid game. Boosters don’t count as moves (The buttons displayed at the bottom of the screen / and the characters are boosters)",
+
+      "Players have 25 seconds per round to make their moves",
+      "Time is paused while animations are played.",
+      "When the 25 seconds run out - the turn changes to the opponent.",
+
+      "Detonating 4+ objects grants an additional move.",
+      "Detonating 5+ objects spawns either a lightning bolt or a bomb (based on the placement).",
+
+      "Win conditions:",
+      "Have more points by the end of the match",
+    ],
+
+    game_features: [
+      "Wide skill expression",
+      "Play To Earn",
+      "Live Multiplayer",
+      "Puzzles",
+      "Play for free",
+      "No Ads",
+      "Fast animation and smooth touch control on all devices",
+      "Playable around the world",
+      "Monthly/weekly tournaments",
+    ],
   },
   // game6: {
   //   name: "",
