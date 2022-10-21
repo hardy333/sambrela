@@ -1,4 +1,4 @@
-const NFT_GAMES_DATA = {
+const NFT_GAMES_DATA_1 = {
   // game 1
   Battle: {
     name: "Medieval Strategy Battle",

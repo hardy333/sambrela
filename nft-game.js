@@ -13,10 +13,10 @@ if (!gameName) {
   gameName = "Battle";
 }
 
-let GAME_DATA = NFT_GAMES_DATA[gameName];
+let GAME_DATA = NFT_GAMES_DATA_1[gameName];
 
 if (!GAME_DATA) {
-  GAME_DATA = NFT_GAMES_DATA.Battle;
+  GAME_DATA = NFT_GAMES_DATA_1.Battle;
 }
 
 document.title = GAME_DATA.name + " | NFT Game";
@@ -81,7 +81,7 @@ const init_game_features = () => {
 };
 
 const init_prev_next_game_links = () => {
-  const gamesNameArr = Object.entries(NFT_GAMES_DATA).map((arr) => arr[0]);
+  const gamesNameArr = Object.entries(NFT_GAMES_DATA_1).map((arr) => arr[0]);
 
   console.log(gamesNameArr);
   let gameIndex = gamesNameArr.findIndex((gName) => gName === gameName);
