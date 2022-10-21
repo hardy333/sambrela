@@ -1,10 +1,4 @@
-/*@import url(//db.onlinewebfonts.com/c/1868e326d3ee28e5395f6efa2bc037bf?family=Eina01-Regular);
-@import url("https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap");
-@font-face {
-  font-family: "Eina01-Regular";
-  src: url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.eot");
-  src: url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.woff") format("woff"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1868e326d3ee28e5395f6efa2bc037bf.svg#Eina01-Regular") format("svg"); }
-*/
+
 .logoFilter {
   filter: drop-shadow(8px 6px 17px rgba(0, 0, 0, 0.5));
 }
@@ -23,7 +17,6 @@ a:hover {
 }
 
 body {
-  /*font-family: "Eina01-Regular";*/
   margin: 0;
 }
 
@@ -39,12 +32,10 @@ body {
   text-align: center;
   padding-top: 200px;
   color: #fff;
-  /*font-family: tahoma;*/
 }
 
 .vimeo-container {
-  /*background: #6F37AE;*/
-  /*margin-bottom: : 50000px;*/
+
 
   background: #6c35ac;
 
